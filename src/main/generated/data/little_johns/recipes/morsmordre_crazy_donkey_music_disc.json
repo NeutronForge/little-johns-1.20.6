@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "little_johns:borrowed_screws"
+    },
+    "G": {
+      "item": "little_johns:galvanized_square_steel"
+    }
+  },
+  "pattern": [
+    "GGG",
+    "GBG",
+    "GGG"
+  ],
+  "result": {
+    "count": 1,
+    "id": "little_johns:morsmordre_crazy_donkey_music_disc"
+  }
+}

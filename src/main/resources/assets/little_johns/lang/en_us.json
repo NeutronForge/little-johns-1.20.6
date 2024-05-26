@@ -1,4 +1,5 @@
 {
+
   "block.little_johns.galvanized_square_steel_beam": "Galvanized Square Steel Beam",
   "block.little_johns.galvanized_square_steel": "Galvanized Square Steel",
   "block.little_johns.galvanized_square_steel_grate": "Galvanized Square Steel Grate",
@@ -26,6 +27,8 @@
   "block.little_johns.eco_friendly_bamboo_plank_veneers": "Eco Friendly Bamboo Plank Veneers",
   "block.little_johns.eco_friendly_crimson_plank_veneers": "Eco Friendly Crimson Plank Veneers",
   "block.little_johns.eco_friendly_warped_plank_veneers": "Eco Friendly Warped Plank Veneers",
+
+  "item.little_johns.morsmordre_crazy_donkey_music_disc": "Crazy Donkey - Galvanized Square Steel Theme (Morsmordre) [CC0]",
 
   "item.little_johns.borrowed_screws": "Screws Borrowed From Aunt"
 

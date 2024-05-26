@@ -1,0 +1,10 @@
+{
+  "morsmordre_crazy_donkey": {
+    "sounds": [
+      {
+        "name": "little_johns:morsmordre_crazy_donkey",
+        "stream": true
+      }
+    ]
+  }
+}

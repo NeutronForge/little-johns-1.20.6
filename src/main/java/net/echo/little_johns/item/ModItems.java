@@ -2,15 +2,21 @@ package net.echo.little_johns.item;
 
 import net.echo.little_johns.LittleJohns;
 import net.echo.little_johns.block.ModBlocks;
+import net.echo.little_johns.sound.ModSounds;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
+import net.minecraft.item.MusicDiscItem;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.Rarity;
 
 public class ModItems {
+
+    public static final Item MORSMORDRE_CRAZY_DONKEY_MUSIC_DISC = registerItem("morsmordre_crazy_donkey_music_disc",
+            new MusicDiscItem(15, ModSounds.MORSMORDRE_CRAZY_DONKEY, new Item.Settings().maxCount(1).rarity(Rarity.EPIC), 218));
 
     public static final Item BORROWED_SCREWS = registerItem("borrowed_screws",
             new Item(new Item.Settings()));
@@ -18,10 +24,17 @@ public class ModItems {
 
 
 
+    private static void addItemsToToolsItemGroup(FabricItemGroupEntries entries) {
+        entries.add(ModItems.MORSMORDRE_CRAZY_DONKEY_MUSIC_DISC);
+    }
+
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(ModItems.BORROWED_SCREWS);
     }
+
     private static void addItemsToFunctionalItemGroup(FabricItemGroupEntries entries) {
+
+
         entries.add(ModBlocks.GALVANIZED_SQUARE_STEEL_BEAM);
         entries.add(ModBlocks.GALVANIZED_SQUARE_STEEL);
         entries.add(ModBlocks.GALVANIZED_SQUARE_STEEL_GRATE);
@@ -86,6 +99,7 @@ public class ModItems {
         LittleJohns.LOGGER.info("Registering mod items for " + LittleJohns.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientItemGroup);
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(ModItems::addItemsToToolsItemGroup);
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FUNCTIONAL).register(ModItems::addItemsToFunctionalItemGroup);
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(ModItems::addItemsToBuildingBlocksItemGroup);
     }

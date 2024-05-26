@@ -2,6 +2,7 @@ package net.echo.little_johns;
 
 import net.echo.little_johns.block.ModBlocks;
 import net.echo.little_johns.item.ModItems;
+import net.echo.little_johns.sound.ModSounds;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -15,5 +16,6 @@ public class LittleJohns implements ModInitializer {
 	public void onInitialize() {
 		ModBlocks.registerModBlocks();
 		ModItems.registerModItems();
+		ModSounds.registerSounds();
 	}
 }
