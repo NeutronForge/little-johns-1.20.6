@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "little_johns",
+	"version": "${version}",
+	"name": "Little John's",
+	"description": "Little John is renovating.",
+	"authors": [
+		"Echo",
+		"Little John"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/little_johns/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.echo.little_johns.LittleJohns"
+		],
+		"client": [
+			"net.echo.little_johns.LittleJohnsClient"
+		],
+		"fabric-datagen": [
+			"net.echo.little_johns.LittleJohnsDataGenerator"
+		]
+	},
+	"mixins": [
+		"little_johns.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.6",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
