@@ -47,6 +47,8 @@
   "block.little_johns.eco_friendly_moss_veneers": "Eco Friendly Moss Veneers",
 
   "item.little_johns.morsmordre_crazy_donkey_music_disc": "Crazy Donkey - Galvanized Square Steel Theme (Morsmordre) [CC0]",
+  "item.little_johns.morsmordre_crazy_donkey_music_disc.desc": "Crazy Donkey - Galvanized Square Steel Theme (Morsmordre) [CC0]",
+  "record.nowPlaying": "Now Playing: %s",
 
   "item.little_johns.borrowed_screws": "Screws Borrowed From Aunt"
 

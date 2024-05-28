@@ -18,7 +18,6 @@ public class ModModelProvider extends FabricModelProvider {
 
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GALVANIZED_SQUARE_STEEL_BLOCK);
 
-
     }
 
     @Override
