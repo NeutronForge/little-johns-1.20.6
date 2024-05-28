@@ -17,5 +17,6 @@ public class LittleJohns implements ModInitializer {
 		ModBlocks.registerModBlocks();
 		ModItems.registerModItems();
 		ModSounds.registerSounds();
+
 	}
 }

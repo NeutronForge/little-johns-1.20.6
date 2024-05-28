@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "B": {
+      "item": "little_johns:galvanized_square_steel_beam"
+    },
+    "G": {
+      "item": "little_johns:galvanized_square_steel"
+    },
+    "S": {
+      "item": "little_johns:borrowed_screws"
+    }
+  },
+  "pattern": [
+    "SGS",
+    "GBG",
+    "SGS"
+  ],
+  "result": {
+    "count": 1,
+    "id": "little_johns:galvanized_square_steel_block"
+  }
+}

@@ -16,8 +16,10 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
 
 
+
         // PICKAXE MINEABLE
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
+                .add(ModBlocks.GALVANIZED_SQUARE_STEEL_BLOCK)
                 .add(ModBlocks.GALVANIZED_SQUARE_STEEL_BEAM)
                 .add(ModBlocks.GALVANIZED_SQUARE_STEEL)
                 .add(ModBlocks.GALVANIZED_SQUARE_STEEL_GRATE);
@@ -48,6 +50,25 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.ECO_FRIENDLY_CRIMSON_HYPHAE_VENEERS)
                 .add(ModBlocks.ECO_FRIENDLY_WARPED_HYPHAE_VENEERS);
 
+        // HOE MINEABLE
+        getOrCreateTagBuilder(BlockTags.HOE_MINEABLE)
+                .add(ModBlocks.ECO_FRIENDLY_OAK_LEAF_VENEERS)
+                .add(ModBlocks.ECO_FRIENDLY_SPRUCE_LEAF_VENEERS)
+                .add(ModBlocks.ECO_FRIENDLY_BIRCH_LEAF_VENEERS)
+                .add(ModBlocks.ECO_FRIENDLY_JUNGLE_LEAF_VENEERS)
+                .add(ModBlocks.ECO_FRIENDLY_ACACIA_LEAF_VENEERS)
+                .add(ModBlocks.ECO_FRIENDLY_DARK_OAK_LEAF_VENEERS)
+                .add(ModBlocks.ECO_FRIENDLY_MANGROVE_LEAF_VENEERS)
+                .add(ModBlocks.ECO_FRIENDLY_CHERRY_LEAF_VENEERS)
+                .add(ModBlocks.ECO_FRIENDLY_AZALEA_LEAF_VENEERS)
+                .add(ModBlocks.ECO_FRIENDLY_FLOWERING_AZALEA_LEAF_VENEERS)
+
+                .add(ModBlocks.ECO_FRIENDLY_BAMBOO_LEAF_VENEERS)
+                .add(ModBlocks.ECO_FRIENDLY_NETHER_WART_VENEERS)
+                .add(ModBlocks.ECO_FRIENDLY_WARPED_WART_VENEERS)
+                .add(ModBlocks.ECO_FRIENDLY_MOSS_VENEERS);
+
+
 
         // REQUIRES STONE
         getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
@@ -56,7 +77,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.GALVANIZED_SQUARE_STEEL_GRATE);
 
         // REQUIRES IRON
-        getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL);
+        getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
+                .add(ModBlocks.GALVANIZED_SQUARE_STEEL_BLOCK);
 
         // REQUIRES DIAMOND
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL);

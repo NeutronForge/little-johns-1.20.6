@@ -1,5 +1,6 @@
 {
 
+  "block.little_johns.galvanized_square_steel_block": "Galvanized Square Steel Block",
   "block.little_johns.galvanized_square_steel_beam": "Galvanized Square Steel Beam",
   "block.little_johns.galvanized_square_steel": "Galvanized Square Steel",
   "block.little_johns.galvanized_square_steel_grate": "Galvanized Square Steel Grate",
@@ -27,6 +28,23 @@
   "block.little_johns.eco_friendly_bamboo_plank_veneers": "Eco Friendly Bamboo Plank Veneers",
   "block.little_johns.eco_friendly_crimson_plank_veneers": "Eco Friendly Crimson Plank Veneers",
   "block.little_johns.eco_friendly_warped_plank_veneers": "Eco Friendly Warped Plank Veneers",
+
+
+  "block.little_johns.eco_friendly_oak_leaf_veneers": "Eco Friendly Oak Leaf Veneers",
+  "block.little_johns.eco_friendly_spruce_leaf_veneers": "Eco Friendly Spruce Leaf Veneers",
+  "block.little_johns.eco_friendly_birch_leaf_veneers": "Eco Friendly Birch Leaf Veneers",
+  "block.little_johns.eco_friendly_jungle_leaf_veneers": "Eco Friendly Jungle Leaf Veneers",
+  "block.little_johns.eco_friendly_acacia_leaf_veneers": "Eco Friendly Acacia Leaf Veneers",
+  "block.little_johns.eco_friendly_dark_oak_leaf_veneers": "Eco Friendly Dark Oak Leaf Veneers",
+  "block.little_johns.eco_friendly_mangrove_leaf_veneers": "Eco Friendly Mangrove Leaf Veneers",
+  "block.little_johns.eco_friendly_cherry_leaf_veneers": "Eco Friendly Cherry Leaf Veneers",
+  "block.little_johns.eco_friendly_azalea_leaf_veneers": "Eco Friendly Azalea Leaf Veneers",
+  "block.little_johns.eco_friendly_flowering_azalea_leaf_veneers": "Eco Friendly Flowering Azalea Leaf Veneers",
+
+  "block.little_johns.eco_friendly_bamboo_leaf_veneers": "Eco Friendly Bamboo Leaf Veneers",
+  "block.little_johns.eco_friendly_nether_wart_veneers": "Eco Friendly Nether Wart Veneers",
+  "block.little_johns.eco_friendly_warped_wart_veneers": "Eco Friendly Warped Wart Veneers",
+  "block.little_johns.eco_friendly_moss_veneers": "Eco Friendly Moss Veneers",
 
   "item.little_johns.morsmordre_crazy_donkey_music_disc": "Crazy Donkey - Galvanized Square Steel Theme (Morsmordre) [CC0]",
 

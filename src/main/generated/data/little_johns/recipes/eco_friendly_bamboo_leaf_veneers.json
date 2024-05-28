@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "B": {
+      "item": "minecraft:bamboo"
+    },
+    "L": {
+      "item": "minecraft:string"
+    }
+  },
+  "pattern": [
+    "BLB",
+    "LBL",
+    "BLB"
+  ],
+  "result": {
+    "count": 16,
+    "id": "little_johns:eco_friendly_bamboo_leaf_veneers"
+  }
+}

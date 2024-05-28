@@ -32,29 +32,48 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.GALVANIZED_SQUARE_STEEL, (Block block) -> this.multifaceGrowthDrops((Block)block, WITHOUT_SILK_TOUCH));
         addDrop(ModBlocks.GALVANIZED_SQUARE_STEEL_GRATE, (Block block) -> this.multifaceGrowthDrops((Block)block, WITHOUT_SILK_TOUCH));
 
-                addDrop(ModBlocks.ECO_FRIENDLY_OAK_PLANK_VENEERS);
-                addDrop(ModBlocks.ECO_FRIENDLY_SPRUCE_PLANK_VENEERS);
-                addDrop(ModBlocks.ECO_FRIENDLY_BIRCH_PLANK_VENEERS);
-                addDrop(ModBlocks.ECO_FRIENDLY_JUNGLE_PLANK_VENEERS);
-                addDrop(ModBlocks.ECO_FRIENDLY_ACACIA_PLANK_VENEERS);
-                addDrop(ModBlocks.ECO_FRIENDLY_DARK_OAK_PLANK_VENEERS);
-                addDrop(ModBlocks.ECO_FRIENDLY_MANGROVE_PLANK_VENEERS);
-                addDrop(ModBlocks.ECO_FRIENDLY_CHERRY_PLANK_VENEERS);
-                addDrop(ModBlocks.ECO_FRIENDLY_BAMBOO_PLANK_VENEERS);
-                addDrop(ModBlocks.ECO_FRIENDLY_CRIMSON_PLANK_VENEERS);
-                addDrop(ModBlocks.ECO_FRIENDLY_WARPED_PLANK_VENEERS);
+        addDrop(ModBlocks.ECO_FRIENDLY_OAK_WOOD_VENEERS, (Block block) -> this.multifaceGrowthDrops((Block)block, WITHOUT_SILK_TOUCH));
+        addDrop(ModBlocks.ECO_FRIENDLY_SPRUCE_WOOD_VENEERS, (Block block) -> this.multifaceGrowthDrops((Block)block, WITHOUT_SILK_TOUCH));
+        addDrop(ModBlocks.ECO_FRIENDLY_BIRCH_WOOD_VENEERS, (Block block) -> this.multifaceGrowthDrops((Block)block, WITHOUT_SILK_TOUCH));
+        addDrop(ModBlocks.ECO_FRIENDLY_JUNGLE_WOOD_VENEERS, (Block block) -> this.multifaceGrowthDrops((Block)block, WITHOUT_SILK_TOUCH));
+        addDrop(ModBlocks.ECO_FRIENDLY_ACACIA_WOOD_VENEERS, (Block block) -> this.multifaceGrowthDrops((Block)block, WITHOUT_SILK_TOUCH));
+        addDrop(ModBlocks.ECO_FRIENDLY_DARK_OAK_WOOD_VENEERS, (Block block) -> this.multifaceGrowthDrops((Block)block, WITHOUT_SILK_TOUCH));
+        addDrop(ModBlocks.ECO_FRIENDLY_MANGROVE_WOOD_VENEERS, (Block block) -> this.multifaceGrowthDrops((Block)block, WITHOUT_SILK_TOUCH));
+        addDrop(ModBlocks.ECO_FRIENDLY_CHERRY_WOOD_VENEERS, (Block block) -> this.multifaceGrowthDrops((Block)block, WITHOUT_SILK_TOUCH));
+        addDrop(ModBlocks.ECO_FRIENDLY_BAMBOO_VENEERS, (Block block) -> this.multifaceGrowthDrops((Block)block, WITHOUT_SILK_TOUCH));
+        addDrop(ModBlocks.ECO_FRIENDLY_CRIMSON_HYPHAE_VENEERS, (Block block) -> this.multifaceGrowthDrops((Block)block, WITHOUT_SILK_TOUCH));
+        addDrop(ModBlocks.ECO_FRIENDLY_WARPED_HYPHAE_VENEERS, (Block block) -> this.multifaceGrowthDrops((Block)block, WITHOUT_SILK_TOUCH));
 
-                addDrop(ModBlocks.ECO_FRIENDLY_OAK_WOOD_VENEERS);
-                addDrop(ModBlocks.ECO_FRIENDLY_SPRUCE_WOOD_VENEERS);
-                addDrop(ModBlocks.ECO_FRIENDLY_BIRCH_WOOD_VENEERS);
-                addDrop(ModBlocks.ECO_FRIENDLY_JUNGLE_WOOD_VENEERS);
-                addDrop(ModBlocks.ECO_FRIENDLY_ACACIA_WOOD_VENEERS);
-                addDrop(ModBlocks.ECO_FRIENDLY_DARK_OAK_WOOD_VENEERS);
-                addDrop(ModBlocks.ECO_FRIENDLY_MANGROVE_WOOD_VENEERS);
-                addDrop(ModBlocks.ECO_FRIENDLY_CHERRY_WOOD_VENEERS);
-                addDrop(ModBlocks.ECO_FRIENDLY_BAMBOO_VENEERS);
-                addDrop(ModBlocks.ECO_FRIENDLY_CRIMSON_HYPHAE_VENEERS);
-                addDrop(ModBlocks.ECO_FRIENDLY_WARPED_HYPHAE_VENEERS);
+        addDrop(ModBlocks.ECO_FRIENDLY_OAK_PLANK_VENEERS, (Block block) -> this.multifaceGrowthDrops((Block)block, WITHOUT_SILK_TOUCH));
+        addDrop(ModBlocks.ECO_FRIENDLY_SPRUCE_PLANK_VENEERS, (Block block) -> this.multifaceGrowthDrops((Block)block, WITHOUT_SILK_TOUCH));
+        addDrop(ModBlocks.ECO_FRIENDLY_BIRCH_PLANK_VENEERS, (Block block) -> this.multifaceGrowthDrops((Block)block, WITHOUT_SILK_TOUCH));
+        addDrop(ModBlocks.ECO_FRIENDLY_JUNGLE_PLANK_VENEERS, (Block block) -> this.multifaceGrowthDrops((Block)block, WITHOUT_SILK_TOUCH));
+        addDrop(ModBlocks.ECO_FRIENDLY_ACACIA_PLANK_VENEERS, (Block block) -> this.multifaceGrowthDrops((Block)block, WITHOUT_SILK_TOUCH));
+        addDrop(ModBlocks.ECO_FRIENDLY_DARK_OAK_PLANK_VENEERS, (Block block) -> this.multifaceGrowthDrops((Block)block, WITHOUT_SILK_TOUCH));
+        addDrop(ModBlocks.ECO_FRIENDLY_MANGROVE_PLANK_VENEERS, (Block block) -> this.multifaceGrowthDrops((Block)block, WITHOUT_SILK_TOUCH));
+        addDrop(ModBlocks.ECO_FRIENDLY_CHERRY_PLANK_VENEERS, (Block block) -> this.multifaceGrowthDrops((Block)block, WITHOUT_SILK_TOUCH));
+        addDrop(ModBlocks.ECO_FRIENDLY_BAMBOO_PLANK_VENEERS, (Block block) -> this.multifaceGrowthDrops((Block)block, WITHOUT_SILK_TOUCH));
+        addDrop(ModBlocks.ECO_FRIENDLY_CRIMSON_PLANK_VENEERS, (Block block) -> this.multifaceGrowthDrops((Block)block, WITHOUT_SILK_TOUCH));
+        addDrop(ModBlocks.ECO_FRIENDLY_WARPED_PLANK_VENEERS, (Block block) -> this.multifaceGrowthDrops((Block)block, WITHOUT_SILK_TOUCH));
+
+
+        addDrop(ModBlocks.ECO_FRIENDLY_OAK_LEAF_VENEERS, (Block block) -> this.multifaceGrowthDrops((Block)block, WITH_SILK_TOUCH_OR_SHEARS));
+        addDrop(ModBlocks.ECO_FRIENDLY_SPRUCE_LEAF_VENEERS, (Block block) -> this.multifaceGrowthDrops((Block)block, WITH_SILK_TOUCH_OR_SHEARS));
+        addDrop(ModBlocks.ECO_FRIENDLY_BIRCH_LEAF_VENEERS, (Block block) -> this.multifaceGrowthDrops((Block)block, WITH_SILK_TOUCH_OR_SHEARS));
+        addDrop(ModBlocks.ECO_FRIENDLY_JUNGLE_LEAF_VENEERS, (Block block) -> this.multifaceGrowthDrops((Block)block, WITH_SILK_TOUCH_OR_SHEARS));
+        addDrop(ModBlocks.ECO_FRIENDLY_ACACIA_LEAF_VENEERS, (Block block) -> this.multifaceGrowthDrops((Block)block, WITH_SILK_TOUCH_OR_SHEARS));
+        addDrop(ModBlocks.ECO_FRIENDLY_DARK_OAK_LEAF_VENEERS, (Block block) -> this.multifaceGrowthDrops((Block)block, WITH_SILK_TOUCH_OR_SHEARS));
+        addDrop(ModBlocks.ECO_FRIENDLY_MANGROVE_LEAF_VENEERS, (Block block) -> this.multifaceGrowthDrops((Block)block, WITH_SILK_TOUCH_OR_SHEARS));
+        addDrop(ModBlocks.ECO_FRIENDLY_CHERRY_LEAF_VENEERS, (Block block) -> this.multifaceGrowthDrops((Block)block, WITH_SILK_TOUCH_OR_SHEARS));
+        addDrop(ModBlocks.ECO_FRIENDLY_AZALEA_LEAF_VENEERS, (Block block) -> this.multifaceGrowthDrops((Block)block, WITH_SILK_TOUCH_OR_SHEARS));
+        addDrop(ModBlocks.ECO_FRIENDLY_FLOWERING_AZALEA_LEAF_VENEERS, (Block block) -> this.multifaceGrowthDrops((Block)block, WITH_SILK_TOUCH_OR_SHEARS));
+
+        addDrop(ModBlocks.ECO_FRIENDLY_BAMBOO_LEAF_VENEERS, (Block block) -> this.multifaceGrowthDrops((Block)block, WITH_SILK_TOUCH_OR_SHEARS));
+        addDrop(ModBlocks.ECO_FRIENDLY_NETHER_WART_VENEERS, (Block block) -> this.multifaceGrowthDrops((Block)block, WITHOUT_SILK_TOUCH));
+        addDrop(ModBlocks.ECO_FRIENDLY_WARPED_WART_VENEERS, (Block block) -> this.multifaceGrowthDrops((Block)block, WITHOUT_SILK_TOUCH));
+        addDrop(ModBlocks.ECO_FRIENDLY_MOSS_VENEERS, (Block block) -> this.multifaceGrowthDrops((Block)block, WITHOUT_SILK_TOUCH));
+
+
 
     }
 

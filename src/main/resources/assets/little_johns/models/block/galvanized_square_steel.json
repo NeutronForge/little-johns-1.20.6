@@ -6,8 +6,8 @@
 	},
 	"elements": [
 		{
-			"from": [3, 0, -0.001],
-			"to": [5, 16, 1.999],
+			"from": [3, 0, 0],
+			"to": [5, 16, 2],
 			"rotation": {"angle": 0, "axis": "y", "origin": [3, 0, 0]},
 			"faces": {
 				"north": {"uv": [3, 0, 5, 16], "texture": "#galvanized_square_steel"},
@@ -19,8 +19,8 @@
 			}
 		},
 		{
-			"from": [11, 0, -0.001],
-			"to": [13, 16, 1.999],
+			"from": [11, 0, 0],
+			"to": [13, 16, 2],
 			"rotation": {"angle": 0, "axis": "y", "origin": [11, 0, 0]},
 			"faces": {
 				"north": {"uv": [3, 0, 5, 16], "texture": "#galvanized_square_steel"},
@@ -32,8 +32,8 @@
 			}
 		},
 		{
-			"from": [0, 3, -0.001],
-			"to": [3, 5, 1.999],
+			"from": [0, 3, 0],
+			"to": [3, 5, 2],
 			"rotation": {"angle": 0, "axis": "y", "origin": [0, 3, 0]},
 			"faces": {
 				"north": {"uv": [5, 11, 8, 13], "texture": "#galvanized_square_steel"},
@@ -44,8 +44,8 @@
 			}
 		},
 		{
-			"from": [0, 11, -0.001],
-			"to": [3, 13, 1.999],
+			"from": [0, 11, 0],
+			"to": [3, 13, 2],
 			"rotation": {"angle": 0, "axis": "y", "origin": [0, 11, 0]},
 			"faces": {
 				"north": {"uv": [5, 3, 8, 5], "texture": "#galvanized_square_steel"},
@@ -56,8 +56,8 @@
 			}
 		},
 		{
-			"from": [13, 11, -0.001],
-			"to": [16, 13, 1.999],
+			"from": [13, 11, 0],
+			"to": [16, 13, 2],
 			"rotation": {"angle": 0, "axis": "y", "origin": [13, 11, 0]},
 			"faces": {
 				"north": {"uv": [0, 3, 3, 5], "texture": "#galvanized_square_steel"},
@@ -68,8 +68,8 @@
 			}
 		},
 		{
-			"from": [13, 3, -0.001],
-			"to": [16, 5, 1.999],
+			"from": [13, 3, 0],
+			"to": [16, 5, 2],
 			"rotation": {"angle": 0, "axis": "y", "origin": [13, 3, 0]},
 			"faces": {
 				"north": {"uv": [0, 11, 3, 13], "texture": "#galvanized_square_steel"},
@@ -80,8 +80,8 @@
 			}
 		},
 		{
-			"from": [5, 3, -0.001],
-			"to": [11, 5, 1.999],
+			"from": [5, 3, 0],
+			"to": [11, 5, 2],
 			"rotation": {"angle": 0, "axis": "y", "origin": [5, 3, 0]},
 			"faces": {
 				"north": {"uv": [5, 11, 11, 13], "texture": "#galvanized_square_steel"},
@@ -91,8 +91,8 @@
 			}
 		},
 		{
-			"from": [5, 11, -0.001],
-			"to": [11, 13, 1.999],
+			"from": [5, 11, 0],
+			"to": [11, 13, 2],
 			"rotation": {"angle": 0, "axis": "y", "origin": [5, 11, 0]},
 			"faces": {
 				"north": {"uv": [5, 3, 11, 5], "texture": "#galvanized_square_steel"},

@@ -1,5 +1,6 @@
 package net.echo.little_johns.datagen;
 
+import net.echo.little_johns.block.ModBlocks;
 import net.echo.little_johns.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
@@ -15,8 +16,7 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
 
-
-        //blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GALVANIZED_SQUARE_STEEL_BLOCK);
 
 
     }

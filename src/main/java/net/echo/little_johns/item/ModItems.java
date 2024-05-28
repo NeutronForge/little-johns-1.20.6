@@ -16,7 +16,7 @@ import net.minecraft.util.Rarity;
 public class ModItems {
 
     public static final Item MORSMORDRE_CRAZY_DONKEY_MUSIC_DISC = registerItem("morsmordre_crazy_donkey_music_disc",
-            new MusicDiscItem(15, ModSounds.MORSMORDRE_CRAZY_DONKEY, new Item.Settings().maxCount(1).rarity(Rarity.EPIC), 218));
+            new MusicDiscItem(15, ModSounds.MORSMORDRE_CRAZY_DONKEY, new Item.Settings().maxCount(1).rarity(Rarity.RARE), 218));
 
     public static final Item BORROWED_SCREWS = registerItem("borrowed_screws",
             new Item(new Item.Settings()));
@@ -61,8 +61,30 @@ public class ModItems {
         entries.add(ModBlocks.ECO_FRIENDLY_CRIMSON_PLANK_VENEERS);
         entries.add(ModBlocks.ECO_FRIENDLY_WARPED_HYPHAE_VENEERS);
         entries.add(ModBlocks.ECO_FRIENDLY_WARPED_PLANK_VENEERS);
+
+
+
+        entries.add(ModBlocks.ECO_FRIENDLY_OAK_LEAF_VENEERS);
+        entries.add(ModBlocks.ECO_FRIENDLY_SPRUCE_LEAF_VENEERS);
+        entries.add(ModBlocks.ECO_FRIENDLY_BIRCH_LEAF_VENEERS);
+        entries.add(ModBlocks.ECO_FRIENDLY_JUNGLE_LEAF_VENEERS);
+        entries.add(ModBlocks.ECO_FRIENDLY_ACACIA_LEAF_VENEERS);
+        entries.add(ModBlocks.ECO_FRIENDLY_DARK_OAK_LEAF_VENEERS);
+        entries.add(ModBlocks.ECO_FRIENDLY_MANGROVE_LEAF_VENEERS);
+        entries.add(ModBlocks.ECO_FRIENDLY_CHERRY_LEAF_VENEERS);
+        entries.add(ModBlocks.ECO_FRIENDLY_AZALEA_LEAF_VENEERS);
+        entries.add(ModBlocks.ECO_FRIENDLY_FLOWERING_AZALEA_LEAF_VENEERS);
+
+        entries.add(ModBlocks.ECO_FRIENDLY_BAMBOO_LEAF_VENEERS);
+        entries.add(ModBlocks.ECO_FRIENDLY_NETHER_WART_VENEERS);
+        entries.add(ModBlocks.ECO_FRIENDLY_WARPED_WART_VENEERS);
+        entries.add(ModBlocks.ECO_FRIENDLY_MOSS_VENEERS);
+
+
+
     }
     private static void addItemsToBuildingBlocksItemGroup(FabricItemGroupEntries entries) {
+        entries.add(ModBlocks.GALVANIZED_SQUARE_STEEL_BLOCK);
         entries.add(ModBlocks.GALVANIZED_SQUARE_STEEL_BEAM);
         entries.add(ModBlocks.GALVANIZED_SQUARE_STEEL);
         entries.add(ModBlocks.GALVANIZED_SQUARE_STEEL_GRATE);
@@ -89,6 +111,23 @@ public class ModItems {
         entries.add(ModBlocks.ECO_FRIENDLY_CRIMSON_PLANK_VENEERS);
         entries.add(ModBlocks.ECO_FRIENDLY_WARPED_HYPHAE_VENEERS);
         entries.add(ModBlocks.ECO_FRIENDLY_WARPED_PLANK_VENEERS);
+
+        entries.add(ModBlocks.ECO_FRIENDLY_OAK_LEAF_VENEERS);
+        entries.add(ModBlocks.ECO_FRIENDLY_SPRUCE_LEAF_VENEERS);
+        entries.add(ModBlocks.ECO_FRIENDLY_BIRCH_LEAF_VENEERS);
+        entries.add(ModBlocks.ECO_FRIENDLY_JUNGLE_LEAF_VENEERS);
+        entries.add(ModBlocks.ECO_FRIENDLY_ACACIA_LEAF_VENEERS);
+        entries.add(ModBlocks.ECO_FRIENDLY_DARK_OAK_LEAF_VENEERS);
+        entries.add(ModBlocks.ECO_FRIENDLY_MANGROVE_LEAF_VENEERS);
+        entries.add(ModBlocks.ECO_FRIENDLY_CHERRY_LEAF_VENEERS);
+        entries.add(ModBlocks.ECO_FRIENDLY_AZALEA_LEAF_VENEERS);
+        entries.add(ModBlocks.ECO_FRIENDLY_FLOWERING_AZALEA_LEAF_VENEERS);
+
+        entries.add(ModBlocks.ECO_FRIENDLY_BAMBOO_LEAF_VENEERS);
+        entries.add(ModBlocks.ECO_FRIENDLY_NETHER_WART_VENEERS);
+        entries.add(ModBlocks.ECO_FRIENDLY_WARPED_WART_VENEERS);
+        entries.add(ModBlocks.ECO_FRIENDLY_MOSS_VENEERS);
+
     }
 
     private static Item registerItem(String name, Item item) {
