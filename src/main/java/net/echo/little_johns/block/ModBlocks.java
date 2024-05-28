@@ -1,10 +1,8 @@
 package net.echo.little_johns.block;
 
 import net.echo.little_johns.LittleJohns;
-import net.echo.little_johns.block.custom.BeamBlock;
+import net.echo.little_johns.block.custom.*;
 import net.echo.little_johns.block.custom.EcoFriendlyWoodVeneersBlock;
-import net.echo.little_johns.block.custom.EcoFriendlyWoodVeneersBlock;
-import net.echo.little_johns.block.custom.GalvanizedSquareSteelBlock;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
@@ -122,7 +120,7 @@ public class ModBlocks {
     public static final Block ECO_FRIENDLY_MANGROVE_LEAF_VENEERS = registerBlock("eco_friendly_mangrove_leaf_veneers",
             new EcoFriendlyWoodVeneersBlock(FabricBlockSettings.copyOf(Blocks.MANGROVE_LEAVES).nonOpaque()));
     public static final Block ECO_FRIENDLY_CHERRY_LEAF_VENEERS = registerBlock("eco_friendly_cherry_leaf_veneers",
-            new EcoFriendlyWoodVeneersBlock(FabricBlockSettings.copyOf(Blocks.CHERRY_LEAVES).nonOpaque()));
+            new EcoFriendlyCherryLeafVeneersBlock(FabricBlockSettings.copyOf(Blocks.CHERRY_LEAVES).nonOpaque()));
     public static final Block ECO_FRIENDLY_AZALEA_LEAF_VENEERS = registerBlock("eco_friendly_azalea_leaf_veneers",
             new EcoFriendlyWoodVeneersBlock(FabricBlockSettings.copyOf(Blocks.AZALEA_LEAVES).nonOpaque()));
     public static final Block ECO_FRIENDLY_FLOWERING_AZALEA_LEAF_VENEERS = registerBlock("eco_friendly_flowering_azalea_leaf_veneers",

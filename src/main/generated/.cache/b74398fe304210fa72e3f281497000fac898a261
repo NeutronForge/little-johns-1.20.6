@@ -1,4 +1,4 @@
-// 1.20.6	2024-05-28T22:15:06.4147369	Little John's/Block Loot Tables
+// 1.20.6	2024-05-29T00:43:34.4906926	Little John's/Block Loot Tables
 adf4a046a56e7dc1ff88dfe555e7b08d74760e73 data\little_johns\loot_tables\blocks\eco_friendly_oak_wood_veneers.json
 a6de7de8ba17b11f996828e6b88d8c9bda352391 data\little_johns\loot_tables\blocks\bamboo_framework.json
 80855974b3575ba058a96c28fc42c567da87f96b data\little_johns\loot_tables\blocks\eco_friendly_dark_oak_leaf_veneers.json
@@ -41,7 +41,7 @@ ace46e8a19bfc6a681bead8895fb006fe56197e7 data\little_johns\loot_tables\blocks\ec
 5d1721b660a1413c4c35fdd1cde14d380d99a75b data\little_johns\loot_tables\blocks\mangrove_wood_framework.json
 79b9d51c3ecd7174b3306be341aee59d77c42bdb data\little_johns\loot_tables\blocks\eco_friendly_warped_plank_veneers.json
 04fb6eb7e53c19fa3dbe4d29656fc88d1f38eaa8 data\little_johns\loot_tables\blocks\spruce_wood_framework.json
-67f90aa952d77640ed5f89774fffeb8dcdff5618 data\little_johns\loot_tables\blocks\eco_friendly_grass_veneers.json
+3815e38536e79bb27a5c6ec8f9bc5a79ead2551e data\little_johns\loot_tables\blocks\eco_friendly_grass_veneers.json
 714746574bfec9dcb80d87357cc2392d7201b321 data\little_johns\loot_tables\blocks\eco_friendly_acacia_wood_veneers.json
 ef58b398ca2925417c779057c6bb5bf67ef29a6c data\little_johns\loot_tables\blocks\eco_friendly_warped_hyphae_veneers.json
 be9e0a7a6ca8680405161da54ede7b794c53eaac data\little_johns\loot_tables\blocks\cherry_wood_framework.json

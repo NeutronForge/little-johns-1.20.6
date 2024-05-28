@@ -91,6 +91,7 @@ public class ModItems {
         entries.add(ModBlocks.ECO_FRIENDLY_NETHER_WART_VENEERS);
         entries.add(ModBlocks.ECO_FRIENDLY_WARPED_WART_VENEERS);
         entries.add(ModBlocks.ECO_FRIENDLY_MOSS_VENEERS);
+        entries.add(ModBlocks.ECO_FRIENDLY_GRASS_VENEERS);
 
 
 
@@ -151,6 +152,7 @@ public class ModItems {
         entries.add(ModBlocks.ECO_FRIENDLY_NETHER_WART_VENEERS);
         entries.add(ModBlocks.ECO_FRIENDLY_WARPED_WART_VENEERS);
         entries.add(ModBlocks.ECO_FRIENDLY_MOSS_VENEERS);
+        entries.add(ModBlocks.ECO_FRIENDLY_GRASS_VENEERS);
 
     }
 
