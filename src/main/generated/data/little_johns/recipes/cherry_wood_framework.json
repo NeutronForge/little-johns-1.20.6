@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:string"
+    },
+    "*": {
+      "item": "minecraft:cherry_log"
+    }
+  },
+  "pattern": [
+    "#*#",
+    "*#*",
+    "#*#"
+  ],
+  "result": {
+    "count": 8,
+    "id": "little_johns:cherry_wood_framework"
+  }
+}

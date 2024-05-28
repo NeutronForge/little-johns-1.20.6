@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:string"
+    },
+    "*": {
+      "item": "minecraft:bamboo_block"
+    }
+  },
+  "pattern": [
+    "#*#",
+    "*#*",
+    "#*#"
+  ],
+  "result": {
+    "count": 8,
+    "id": "little_johns:bamboo_framework"
+  }
+}

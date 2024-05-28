@@ -26,6 +26,19 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
         // AXE MINEABLE
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
+
+                .add(ModBlocks.OAK_WOOD_FRAMEWORK)
+                .add(ModBlocks.SPRUCE_WOOD_FRAMEWORK)
+                .add(ModBlocks.BIRCH_WOOD_FRAMEWORK)
+                .add(ModBlocks.JUNGLE_WOOD_FRAMEWORK)
+                .add(ModBlocks.ACACIA_WOOD_FRAMEWORK)
+                .add(ModBlocks.DARK_OAK_WOOD_FRAMEWORK)
+                .add(ModBlocks.MANGROVE_WOOD_FRAMEWORK)
+                .add(ModBlocks.CHERRY_WOOD_FRAMEWORK)
+                .add(ModBlocks.BAMBOO_FRAMEWORK)
+                .add(ModBlocks.CRIMSON_HYPHAE_FRAMEWORK)
+                .add(ModBlocks.WARPED_HYPHAE_FRAMEWORK)
+
                 .add(ModBlocks.ECO_FRIENDLY_OAK_PLANK_VENEERS)
                 .add(ModBlocks.ECO_FRIENDLY_SPRUCE_PLANK_VENEERS)
                 .add(ModBlocks.ECO_FRIENDLY_BIRCH_PLANK_VENEERS)
@@ -68,7 +81,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.ECO_FRIENDLY_WARPED_WART_VENEERS)
                 .add(ModBlocks.ECO_FRIENDLY_MOSS_VENEERS);
 
-
+        // SHOVEL MINEABLE
+        getOrCreateTagBuilder(BlockTags.SHOVEL_MINEABLE)
+                .add(ModBlocks.ECO_FRIENDLY_GRASS_VENEERS);
 
         // REQUIRES STONE
         getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)

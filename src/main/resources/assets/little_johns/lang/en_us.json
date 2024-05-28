@@ -29,6 +29,18 @@
   "block.little_johns.eco_friendly_crimson_plank_veneers": "Eco Friendly Crimson Plank Veneers",
   "block.little_johns.eco_friendly_warped_plank_veneers": "Eco Friendly Warped Plank Veneers",
 
+  "block.little_johns.oak_wood_framework": "Oak Wood Framework",
+  "block.little_johns.spruce_wood_framework": "Spruce Wood Framework",
+  "block.little_johns.birch_wood_framework": "Birch Wood Framework",
+  "block.little_johns.jungle_wood_framework": "Jungle Wood Framework",
+  "block.little_johns.acacia_wood_framework": "Acacia Wood Framework",
+  "block.little_johns.dark_oak_wood_framework": "Dark Oak Wood Framework",
+  "block.little_johns.mangrove_wood_framework": "Mangrove Wood Framework",
+  "block.little_johns.cherry_wood_framework": "Cherry Wood Framework",
+  "block.little_johns.bamboo_framework": "Bamboo Framework",
+  "block.little_johns.crimson_hyphae_framework": "Crimson Hyphae Framework",
+  "block.little_johns.warped_hyphae_framework": "Warped Hyphae Framework",
+
 
   "block.little_johns.eco_friendly_oak_leaf_veneers": "Eco Friendly Oak Leaf Veneers",
   "block.little_johns.eco_friendly_spruce_leaf_veneers": "Eco Friendly Spruce Leaf Veneers",
@@ -45,6 +57,7 @@
   "block.little_johns.eco_friendly_nether_wart_veneers": "Eco Friendly Nether Wart Veneers",
   "block.little_johns.eco_friendly_warped_wart_veneers": "Eco Friendly Warped Wart Veneers",
   "block.little_johns.eco_friendly_moss_veneers": "Eco Friendly Moss Veneers",
+  "block.little_johns.eco_friendly_grass_veneers": "Eco Friendly Grass Veneers",
 
   "item.little_johns.morsmordre_crazy_donkey_music_disc": "Music Disc",
   "item.little_johns.morsmordre_crazy_donkey_music_disc.desc": "Crazy Donkey - Galvanized Square Steel Theme (Morsmordre) [CC0]",

@@ -32,6 +32,18 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.GALVANIZED_SQUARE_STEEL, (Block block) -> this.multifaceGrowthDrops((Block)block, WITHOUT_SILK_TOUCH));
         addDrop(ModBlocks.GALVANIZED_SQUARE_STEEL_GRATE, (Block block) -> this.multifaceGrowthDrops((Block)block, WITHOUT_SILK_TOUCH));
 
+        addDrop(ModBlocks.OAK_WOOD_FRAMEWORK, (Block block) -> this.multifaceGrowthDrops((Block)block, WITHOUT_SILK_TOUCH));
+        addDrop(ModBlocks.SPRUCE_WOOD_FRAMEWORK, (Block block) -> this.multifaceGrowthDrops((Block)block, WITHOUT_SILK_TOUCH));
+        addDrop(ModBlocks.BIRCH_WOOD_FRAMEWORK, (Block block) -> this.multifaceGrowthDrops((Block)block, WITHOUT_SILK_TOUCH));
+        addDrop(ModBlocks.JUNGLE_WOOD_FRAMEWORK, (Block block) -> this.multifaceGrowthDrops((Block)block, WITHOUT_SILK_TOUCH));
+        addDrop(ModBlocks.ACACIA_WOOD_FRAMEWORK, (Block block) -> this.multifaceGrowthDrops((Block)block, WITHOUT_SILK_TOUCH));
+        addDrop(ModBlocks.DARK_OAK_WOOD_FRAMEWORK, (Block block) -> this.multifaceGrowthDrops((Block)block, WITHOUT_SILK_TOUCH));
+        addDrop(ModBlocks.MANGROVE_WOOD_FRAMEWORK, (Block block) -> this.multifaceGrowthDrops((Block)block, WITHOUT_SILK_TOUCH));
+        addDrop(ModBlocks.CHERRY_WOOD_FRAMEWORK, (Block block) -> this.multifaceGrowthDrops((Block)block, WITHOUT_SILK_TOUCH));
+        addDrop(ModBlocks.BAMBOO_FRAMEWORK, (Block block) -> this.multifaceGrowthDrops((Block)block, WITHOUT_SILK_TOUCH));
+        addDrop(ModBlocks.CRIMSON_HYPHAE_FRAMEWORK, (Block block) -> this.multifaceGrowthDrops((Block)block, WITHOUT_SILK_TOUCH));
+        addDrop(ModBlocks.WARPED_HYPHAE_FRAMEWORK, (Block block) -> this.multifaceGrowthDrops((Block)block, WITHOUT_SILK_TOUCH));
+
         addDrop(ModBlocks.ECO_FRIENDLY_OAK_WOOD_VENEERS, (Block block) -> this.multifaceGrowthDrops((Block)block, WITHOUT_SILK_TOUCH));
         addDrop(ModBlocks.ECO_FRIENDLY_SPRUCE_WOOD_VENEERS, (Block block) -> this.multifaceGrowthDrops((Block)block, WITHOUT_SILK_TOUCH));
         addDrop(ModBlocks.ECO_FRIENDLY_BIRCH_WOOD_VENEERS, (Block block) -> this.multifaceGrowthDrops((Block)block, WITHOUT_SILK_TOUCH));
@@ -72,6 +84,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.ECO_FRIENDLY_NETHER_WART_VENEERS, (Block block) -> this.multifaceGrowthDrops((Block)block, WITHOUT_SILK_TOUCH));
         addDrop(ModBlocks.ECO_FRIENDLY_WARPED_WART_VENEERS, (Block block) -> this.multifaceGrowthDrops((Block)block, WITHOUT_SILK_TOUCH));
         addDrop(ModBlocks.ECO_FRIENDLY_MOSS_VENEERS, (Block block) -> this.multifaceGrowthDrops((Block)block, WITHOUT_SILK_TOUCH));
+        addDrop(ModBlocks.ECO_FRIENDLY_GRASS_VENEERS, (Block block) -> this.multifaceGrowthDrops((Block)block, WITHOUT_SILK_TOUCH));
 
 
 

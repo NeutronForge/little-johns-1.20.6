@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:string"
+    },
+    "*": {
+      "item": "minecraft:spruce_log"
+    }
+  },
+  "pattern": [
+    "#*#",
+    "*#*",
+    "#*#"
+  ],
+  "result": {
+    "count": 8,
+    "id": "little_johns:spruce_wood_framework"
+  }
+}

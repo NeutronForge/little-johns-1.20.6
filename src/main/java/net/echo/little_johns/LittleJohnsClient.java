@@ -4,10 +4,14 @@ import net.echo.little_johns.block.ModBlocks;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.client.rendering.v1.ColorProviderRegistry;
+import net.minecraft.block.Blocks;
+import net.minecraft.block.TallPlantBlock;
+import net.minecraft.block.enums.DoubleBlockHalf;
 import net.minecraft.client.RunArgs;
 import net.minecraft.client.color.block.BlockColors;
 import net.minecraft.client.color.world.BiomeColors;
 import net.minecraft.client.color.world.FoliageColors;
+import net.minecraft.client.color.world.GrassColors;
 import net.minecraft.client.render.RenderLayer;
 
 public class LittleJohnsClient implements ClientModInitializer {
@@ -26,6 +30,14 @@ public class LittleJohnsClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.ECO_FRIENDLY_AZALEA_LEAF_VENEERS, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.ECO_FRIENDLY_FLOWERING_AZALEA_LEAF_VENEERS, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.ECO_FRIENDLY_BAMBOO_LEAF_VENEERS, RenderLayer.getCutout());
+
+
+        ColorProviderRegistry.BLOCK.register((state, world, pos, tintIndex) -> {
+            if (world == null || pos == null) {
+                return GrassColors.getDefaultColor();
+            }
+            return BiomeColors.getGrassColor(world, pos);
+        }, ModBlocks.ECO_FRIENDLY_GRASS_VENEERS);
 
         ColorProviderRegistry.BLOCK.register((state, world, pos, tintIndex) -> {
             if (world == null || pos == null) {
@@ -59,6 +71,7 @@ public class LittleJohnsClient implements ClientModInitializer {
         ColorProviderRegistry.ITEM.register((stack, tintIndex) -> FoliageColors.getSpruceColor(), ModBlocks.ECO_FRIENDLY_SPRUCE_LEAF_VENEERS);
         ColorProviderRegistry.ITEM.register((stack, tintIndex) -> FoliageColors.getBirchColor(), ModBlocks.ECO_FRIENDLY_BIRCH_LEAF_VENEERS);
         ColorProviderRegistry.ITEM.register((stack, tintIndex) -> FoliageColors.getMangroveColor(), ModBlocks.ECO_FRIENDLY_MANGROVE_LEAF_VENEERS);
+        ColorProviderRegistry.ITEM.register((stack, tintIndex) -> GrassColors.getDefaultColor(), ModBlocks.ECO_FRIENDLY_GRASS_VENEERS);
 
 
 

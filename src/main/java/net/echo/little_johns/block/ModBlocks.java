@@ -21,6 +21,8 @@ import net.minecraft.util.Identifier;
 public class ModBlocks {
 
 
+
+    // GALVANIZED SQUARE STEEL
     public static final Block GALVANIZED_SQUARE_STEEL_BLOCK = registerBlock("galvanized_square_steel_block",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.NETHERITE)));
     public static final Block GALVANIZED_SQUARE_STEEL_BEAM = registerBlock("galvanized_square_steel_beam",
@@ -29,6 +31,30 @@ public class ModBlocks {
             new GalvanizedSquareSteelBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
     public static final Block GALVANIZED_SQUARE_STEEL_GRATE = registerBlock("galvanized_square_steel_grate",
             new GalvanizedSquareSteelBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
+
+    // WOOD FRAMEWORK
+    public static final Block OAK_WOOD_FRAMEWORK = registerBlock("oak_wood_framework",
+            new EcoFriendlyWoodVeneersBlock(FabricBlockSettings.copyOf(Blocks.OAK_WOOD).nonOpaque()));
+    public static final Block SPRUCE_WOOD_FRAMEWORK = registerBlock("spruce_wood_framework",
+            new EcoFriendlyWoodVeneersBlock(FabricBlockSettings.copyOf(Blocks.SPRUCE_WOOD).nonOpaque()));
+    public static final Block BIRCH_WOOD_FRAMEWORK = registerBlock("birch_wood_framework",
+            new EcoFriendlyWoodVeneersBlock(FabricBlockSettings.copyOf(Blocks.BIRCH_WOOD).nonOpaque()));
+    public static final Block JUNGLE_WOOD_FRAMEWORK = registerBlock("jungle_wood_framework",
+            new EcoFriendlyWoodVeneersBlock(FabricBlockSettings.copyOf(Blocks.JUNGLE_WOOD).nonOpaque()));
+    public static final Block ACACIA_WOOD_FRAMEWORK = registerBlock("acacia_wood_framework",
+            new EcoFriendlyWoodVeneersBlock(FabricBlockSettings.copyOf(Blocks.ACACIA_WOOD).nonOpaque()));
+    public static final Block DARK_OAK_WOOD_FRAMEWORK = registerBlock("dark_oak_wood_framework",
+            new EcoFriendlyWoodVeneersBlock(FabricBlockSettings.copyOf(Blocks.DARK_OAK_WOOD).nonOpaque()));
+    public static final Block MANGROVE_WOOD_FRAMEWORK = registerBlock("mangrove_wood_framework",
+            new EcoFriendlyWoodVeneersBlock(FabricBlockSettings.copyOf(Blocks.MANGROVE_WOOD).nonOpaque()));
+    public static final Block CHERRY_WOOD_FRAMEWORK = registerBlock("cherry_wood_framework",
+            new EcoFriendlyWoodVeneersBlock(FabricBlockSettings.copyOf(Blocks.CHERRY_WOOD).nonOpaque()));
+    public static final Block BAMBOO_FRAMEWORK = registerBlock("bamboo_framework",
+            new EcoFriendlyWoodVeneersBlock(FabricBlockSettings.copyOf(Blocks.BAMBOO_PLANKS).nonOpaque()));
+    public static final Block CRIMSON_HYPHAE_FRAMEWORK = registerBlock("crimson_hyphae_framework",
+            new EcoFriendlyWoodVeneersBlock(FabricBlockSettings.copyOf(Blocks.CRIMSON_HYPHAE).nonOpaque()));
+    public static final Block WARPED_HYPHAE_FRAMEWORK = registerBlock("warped_hyphae_framework",
+            new EcoFriendlyWoodVeneersBlock(FabricBlockSettings.copyOf(Blocks.WARPED_HYPHAE).nonOpaque()));
 
 
     // WOOD PLANK VENEERS
@@ -80,7 +106,7 @@ public class ModBlocks {
             new EcoFriendlyWoodVeneersBlock(FabricBlockSettings.copyOf(Blocks.WARPED_HYPHAE).nonOpaque()));
 
 
-
+    // LEAF VENEERS
     public static final Block ECO_FRIENDLY_OAK_LEAF_VENEERS = registerBlock("eco_friendly_oak_leaf_veneers",
             new EcoFriendlyWoodVeneersBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).nonOpaque()));
     public static final Block ECO_FRIENDLY_SPRUCE_LEAF_VENEERS = registerBlock("eco_friendly_spruce_leaf_veneers",
@@ -101,7 +127,6 @@ public class ModBlocks {
             new EcoFriendlyWoodVeneersBlock(FabricBlockSettings.copyOf(Blocks.AZALEA_LEAVES).nonOpaque()));
     public static final Block ECO_FRIENDLY_FLOWERING_AZALEA_LEAF_VENEERS = registerBlock("eco_friendly_flowering_azalea_leaf_veneers",
             new EcoFriendlyWoodVeneersBlock(FabricBlockSettings.copyOf(Blocks.FLOWERING_AZALEA_LEAVES).nonOpaque()));
-
     public static final Block ECO_FRIENDLY_BAMBOO_LEAF_VENEERS = registerBlock("eco_friendly_bamboo_leaf_veneers",
             new EcoFriendlyWoodVeneersBlock(FabricBlockSettings.copyOf(Blocks.JUNGLE_LEAVES).nonOpaque()));
     public static final Block ECO_FRIENDLY_NETHER_WART_VENEERS = registerBlock("eco_friendly_nether_wart_veneers",
@@ -109,9 +134,11 @@ public class ModBlocks {
     public static final Block ECO_FRIENDLY_WARPED_WART_VENEERS = registerBlock("eco_friendly_warped_wart_veneers",
             new EcoFriendlyWoodVeneersBlock(FabricBlockSettings.copyOf(Blocks.WARPED_WART_BLOCK).nonOpaque()));
 
+    // OTHER VENEERS
     public static final Block ECO_FRIENDLY_MOSS_VENEERS = registerBlock("eco_friendly_moss_veneers",
             new EcoFriendlyWoodVeneersBlock(FabricBlockSettings.copyOf(Blocks.MOSS_BLOCK).nonOpaque()));
-
+    public static final Block ECO_FRIENDLY_GRASS_VENEERS = registerBlock("eco_friendly_grass_veneers",
+            new EcoFriendlyWoodVeneersBlock(FabricBlockSettings.copyOf(Blocks.GRASS_BLOCK).nonOpaque()));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

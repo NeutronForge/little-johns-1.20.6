@@ -39,6 +39,18 @@ public class ModItems {
         entries.add(ModBlocks.GALVANIZED_SQUARE_STEEL);
         entries.add(ModBlocks.GALVANIZED_SQUARE_STEEL_GRATE);
 
+        entries.add(ModBlocks.OAK_WOOD_FRAMEWORK);
+        entries.add(ModBlocks.SPRUCE_WOOD_FRAMEWORK);
+        entries.add(ModBlocks.BIRCH_WOOD_FRAMEWORK);
+        entries.add(ModBlocks.JUNGLE_WOOD_FRAMEWORK);
+        entries.add(ModBlocks.ACACIA_WOOD_FRAMEWORK);
+        entries.add(ModBlocks.DARK_OAK_WOOD_FRAMEWORK);
+        entries.add(ModBlocks.MANGROVE_WOOD_FRAMEWORK);
+        entries.add(ModBlocks.CHERRY_WOOD_FRAMEWORK);
+        entries.add(ModBlocks.BAMBOO_FRAMEWORK);
+        entries.add(ModBlocks.CRIMSON_HYPHAE_FRAMEWORK);
+        entries.add(ModBlocks.WARPED_HYPHAE_FRAMEWORK);
+
         entries.add(ModBlocks.ECO_FRIENDLY_OAK_WOOD_VENEERS);
         entries.add(ModBlocks.ECO_FRIENDLY_OAK_PLANK_VENEERS);
         entries.add(ModBlocks.ECO_FRIENDLY_SPRUCE_WOOD_VENEERS);
@@ -88,6 +100,18 @@ public class ModItems {
         entries.add(ModBlocks.GALVANIZED_SQUARE_STEEL_BEAM);
         entries.add(ModBlocks.GALVANIZED_SQUARE_STEEL);
         entries.add(ModBlocks.GALVANIZED_SQUARE_STEEL_GRATE);
+
+        entries.add(ModBlocks.OAK_WOOD_FRAMEWORK);
+        entries.add(ModBlocks.SPRUCE_WOOD_FRAMEWORK);
+        entries.add(ModBlocks.BIRCH_WOOD_FRAMEWORK);
+        entries.add(ModBlocks.JUNGLE_WOOD_FRAMEWORK);
+        entries.add(ModBlocks.ACACIA_WOOD_FRAMEWORK);
+        entries.add(ModBlocks.DARK_OAK_WOOD_FRAMEWORK);
+        entries.add(ModBlocks.MANGROVE_WOOD_FRAMEWORK);
+        entries.add(ModBlocks.CHERRY_WOOD_FRAMEWORK);
+        entries.add(ModBlocks.BAMBOO_FRAMEWORK);
+        entries.add(ModBlocks.CRIMSON_HYPHAE_FRAMEWORK);
+        entries.add(ModBlocks.WARPED_HYPHAE_FRAMEWORK);
 
         entries.add(ModBlocks.ECO_FRIENDLY_OAK_WOOD_VENEERS);
         entries.add(ModBlocks.ECO_FRIENDLY_OAK_PLANK_VENEERS);

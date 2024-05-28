@@ -50,7 +50,6 @@ public class EcoFriendlyWoodVeneersBlock
 
     @Override
     protected boolean canReplace(BlockState state, ItemPlacementContext context) {
-
         return context.getStack().isOf(this.asItem());
     }
 

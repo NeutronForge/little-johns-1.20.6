@@ -1,5 +1,16 @@
 {
   "values": [
+    "little_johns:oak_wood_framework",
+    "little_johns:spruce_wood_framework",
+    "little_johns:birch_wood_framework",
+    "little_johns:jungle_wood_framework",
+    "little_johns:acacia_wood_framework",
+    "little_johns:dark_oak_wood_framework",
+    "little_johns:mangrove_wood_framework",
+    "little_johns:cherry_wood_framework",
+    "little_johns:bamboo_framework",
+    "little_johns:crimson_hyphae_framework",
+    "little_johns:warped_hyphae_framework",
     "little_johns:eco_friendly_oak_plank_veneers",
     "little_johns:eco_friendly_spruce_plank_veneers",
     "little_johns:eco_friendly_birch_plank_veneers",
