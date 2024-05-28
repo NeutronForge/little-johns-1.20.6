@@ -3,14 +3,14 @@
 	"id": "little_johns",
 	"version": "${version}",
 	"name": "Little John's",
-	"description": "Little John is renovating.",
+	"description": "This mod adds Galvanized Square Steel, Screws Borrowed From Aunt and Eco Friendly Wood Veneers.",
 	"authors": [
-		"Echo",
-		"Little John"
+		"Echo"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/NeutronForge/",
+		"source": "https://github.com/NeutronForge/little-johns-1.20.6",
+		"discord": "blightedheart"
 	},
 	"license": "MIT",
 	"icon": "assets/little_johns/icon.png",
