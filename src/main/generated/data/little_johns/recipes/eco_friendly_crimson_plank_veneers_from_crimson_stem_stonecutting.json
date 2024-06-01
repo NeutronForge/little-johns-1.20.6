@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:crimson_stem"
+  },
+  "result": {
+    "count": 16,
+    "id": "little_johns:eco_friendly_crimson_plank_veneers"
+  }
+}

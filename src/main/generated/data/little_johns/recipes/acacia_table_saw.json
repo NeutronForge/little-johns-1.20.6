@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:acacia_log"
+    },
+    "*": {
+      "item": "minecraft:acacia_planks"
+    },
+    "@": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "*@*",
+    "# #",
+    "# #"
+  ],
+  "result": {
+    "count": 1,
+    "id": "little_johns:acacia_table_saw"
+  }
+}

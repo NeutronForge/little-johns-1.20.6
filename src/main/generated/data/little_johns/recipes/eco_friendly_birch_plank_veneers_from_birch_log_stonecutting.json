@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:birch_log"
+  },
+  "result": {
+    "count": 16,
+    "id": "little_johns:eco_friendly_birch_plank_veneers"
+  }
+}

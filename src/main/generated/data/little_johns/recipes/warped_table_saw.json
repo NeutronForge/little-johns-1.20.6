@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:warped_stem"
+    },
+    "*": {
+      "item": "minecraft:warped_planks"
+    },
+    "@": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "pattern": [
+    "*@*",
+    "# #",
+    "# #"
+  ],
+  "result": {
+    "count": 1,
+    "id": "little_johns:warped_table_saw"
+  }
+}

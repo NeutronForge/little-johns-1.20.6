@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:crimson_stem"
+    },
+    "*": {
+      "item": "minecraft:crimson_planks"
+    },
+    "@": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "pattern": [
+    "*@*",
+    "# #",
+    "# #"
+  ],
+  "result": {
+    "count": 1,
+    "id": "little_johns:crimson_table_saw"
+  }
+}

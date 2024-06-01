@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:bamboo_block"
+    },
+    "*": {
+      "item": "minecraft:bamboo_planks"
+    },
+    "@": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "*@*",
+    "# #",
+    "# #"
+  ],
+  "result": {
+    "count": 1,
+    "id": "little_johns:bamboo_table_saw"
+  }
+}

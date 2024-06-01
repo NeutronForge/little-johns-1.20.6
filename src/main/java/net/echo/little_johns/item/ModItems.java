@@ -34,6 +34,17 @@ public class ModItems {
 
     private static void addItemsToFunctionalItemGroup(FabricItemGroupEntries entries) {
 
+        entries.add(ModBlocks.OAK_TABLE_SAW);
+        entries.add(ModBlocks.SPRUCE_TABLE_SAW);
+        entries.add(ModBlocks.BIRCH_TABLE_SAW);
+        entries.add(ModBlocks.JUNGLE_TABLE_SAW);
+        entries.add(ModBlocks.ACACIA_TABLE_SAW);
+        entries.add(ModBlocks.DARK_OAK_TABLE_SAW);
+        entries.add(ModBlocks.MANGROVE_TABLE_SAW);
+        entries.add(ModBlocks.CHERRY_TABLE_SAW);
+        entries.add(ModBlocks.BAMBOO_TABLE_SAW);
+        entries.add(ModBlocks.CRIMSON_TABLE_SAW);
+        entries.add(ModBlocks.WARPED_TABLE_SAW);
 
         entries.add(ModBlocks.GALVANIZED_SQUARE_STEEL_BEAM);
         entries.add(ModBlocks.GALVANIZED_SQUARE_STEEL);
@@ -92,6 +103,8 @@ public class ModItems {
         entries.add(ModBlocks.ECO_FRIENDLY_WARPED_WART_VENEERS);
         entries.add(ModBlocks.ECO_FRIENDLY_MOSS_VENEERS);
         entries.add(ModBlocks.ECO_FRIENDLY_GRASS_VENEERS);
+
+
 
 
 
@@ -153,6 +166,7 @@ public class ModItems {
         entries.add(ModBlocks.ECO_FRIENDLY_WARPED_WART_VENEERS);
         entries.add(ModBlocks.ECO_FRIENDLY_MOSS_VENEERS);
         entries.add(ModBlocks.ECO_FRIENDLY_GRASS_VENEERS);
+
 
     }
 

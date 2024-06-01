@@ -19,6 +19,30 @@ import net.minecraft.util.Identifier;
 public class ModBlocks {
 
 
+    // TABLE SAWS
+    public static final Block OAK_TABLE_SAW = registerBlock("oak_table_saw",
+            new TableSawBlock(FabricBlockSettings.copyOf(Blocks.OAK_WOOD).nonOpaque()));
+    public static final Block SPRUCE_TABLE_SAW = registerBlock("spruce_table_saw",
+            new TableSawBlock(FabricBlockSettings.copyOf(Blocks.SPRUCE_WOOD).nonOpaque()));
+    public static final Block BIRCH_TABLE_SAW = registerBlock("birch_table_saw",
+            new TableSawBlock(FabricBlockSettings.copyOf(Blocks.BIRCH_WOOD).nonOpaque()));
+    public static final Block JUNGLE_TABLE_SAW = registerBlock("jungle_table_saw",
+            new TableSawBlock(FabricBlockSettings.copyOf(Blocks.JUNGLE_WOOD).nonOpaque()));
+    public static final Block ACACIA_TABLE_SAW = registerBlock("acacia_table_saw",
+            new TableSawBlock(FabricBlockSettings.copyOf(Blocks.ACACIA_WOOD).nonOpaque()));
+    public static final Block DARK_OAK_TABLE_SAW = registerBlock("dark_oak_table_saw",
+            new TableSawBlock(FabricBlockSettings.copyOf(Blocks.DARK_OAK_WOOD).nonOpaque()));
+    public static final Block MANGROVE_TABLE_SAW = registerBlock("mangrove_table_saw",
+            new TableSawBlock(FabricBlockSettings.copyOf(Blocks.MANGROVE_WOOD).nonOpaque()));
+    public static final Block CHERRY_TABLE_SAW = registerBlock("cherry_table_saw",
+            new TableSawBlock(FabricBlockSettings.copyOf(Blocks.CHERRY_WOOD).nonOpaque()));
+    public static final Block BAMBOO_TABLE_SAW = registerBlock("bamboo_table_saw",
+            new TableSawBlock(FabricBlockSettings.copyOf(Blocks.BAMBOO_PLANKS).nonOpaque()));
+    public static final Block CRIMSON_TABLE_SAW = registerBlock("crimson_table_saw",
+            new TableSawBlock(FabricBlockSettings.copyOf(Blocks.CRIMSON_HYPHAE).nonOpaque()));
+    public static final Block WARPED_TABLE_SAW = registerBlock("warped_table_saw",
+            new TableSawBlock(FabricBlockSettings.copyOf(Blocks.WARPED_HYPHAE).nonOpaque()));
+
 
     // GALVANIZED SQUARE STEEL
     public static final Block GALVANIZED_SQUARE_STEEL_BLOCK = registerBlock("galvanized_square_steel_block",
@@ -29,6 +53,7 @@ public class ModBlocks {
             new GalvanizedSquareSteelBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
     public static final Block GALVANIZED_SQUARE_STEEL_GRATE = registerBlock("galvanized_square_steel_grate",
             new GalvanizedSquareSteelBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
+
 
     // WOOD FRAMEWORK
     public static final Block OAK_WOOD_FRAMEWORK = registerBlock("oak_wood_framework",
@@ -78,6 +103,7 @@ public class ModBlocks {
             new EcoFriendlyWoodVeneersBlock(FabricBlockSettings.copyOf(Blocks.CRIMSON_PLANKS).nonOpaque()));
     public static final Block ECO_FRIENDLY_WARPED_PLANK_VENEERS = registerBlock("eco_friendly_warped_plank_veneers",
             new EcoFriendlyWoodVeneersBlock(FabricBlockSettings.copyOf(Blocks.WARPED_PLANKS).nonOpaque()));
+
 
     // WOOD LOG VENEERS
     public static final Block ECO_FRIENDLY_OAK_WOOD_VENEERS = registerBlock("eco_friendly_oak_wood_veneers",
@@ -132,12 +158,20 @@ public class ModBlocks {
     public static final Block ECO_FRIENDLY_WARPED_WART_VENEERS = registerBlock("eco_friendly_warped_wart_veneers",
             new EcoFriendlyWoodVeneersBlock(FabricBlockSettings.copyOf(Blocks.WARPED_WART_BLOCK).nonOpaque()));
 
+
     // OTHER VENEERS
     public static final Block ECO_FRIENDLY_MOSS_VENEERS = registerBlock("eco_friendly_moss_veneers",
             new EcoFriendlyWoodVeneersBlock(FabricBlockSettings.copyOf(Blocks.MOSS_BLOCK).nonOpaque()));
     public static final Block ECO_FRIENDLY_GRASS_VENEERS = registerBlock("eco_friendly_grass_veneers",
             new EcoFriendlyWoodVeneersBlock(FabricBlockSettings.copyOf(Blocks.GRASS_BLOCK).nonOpaque()));
 
+
+    // LAYER BLOCKS
+
+
+
+
+    // ----------------- //
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(LittleJohns.MOD_ID, name), block);

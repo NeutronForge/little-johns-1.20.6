@@ -1,21 +1,31 @@
 package net.echo.little_johns.datagen;
 
 import net.echo.little_johns.block.ModBlocks;
+import net.echo.little_johns.block.custom.LayerBlock;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.block.SnowBlock;
 import net.minecraft.data.server.loottable.BlockLootTableGenerator;
 import net.minecraft.enchantment.Enchantments;
 import net.minecraft.item.Item;
+import net.minecraft.item.Items;
+import net.minecraft.loot.LootPool;
 import net.minecraft.loot.LootTable;
+import net.minecraft.loot.condition.BlockStatePropertyLootCondition;
+import net.minecraft.loot.condition.EntityPropertiesLootCondition;
 import net.minecraft.loot.condition.LootCondition;
+import net.minecraft.loot.context.LootContext;
+import net.minecraft.loot.entry.AlternativeEntry;
 import net.minecraft.loot.entry.ItemEntry;
 import net.minecraft.loot.entry.LeafEntry;
 import net.minecraft.loot.entry.LootPoolEntry;
 import net.minecraft.loot.function.ApplyBonusLootFunction;
 import net.minecraft.loot.function.SetCountLootFunction;
+import net.minecraft.loot.provider.number.ConstantLootNumberProvider;
 import net.minecraft.loot.provider.number.UniformLootNumberProvider;
+import net.minecraft.predicate.StatePredicate;
 import net.minecraft.registry.RegistryWrapper;
 
 import java.util.concurrent.CompletableFuture;
@@ -27,6 +37,19 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
     @Override
     public void generate() {
+
+
+        addDrop(ModBlocks.OAK_TABLE_SAW);
+        addDrop(ModBlocks.SPRUCE_TABLE_SAW);
+        addDrop(ModBlocks.BIRCH_TABLE_SAW);
+        addDrop(ModBlocks.JUNGLE_TABLE_SAW);
+        addDrop(ModBlocks.ACACIA_TABLE_SAW);
+        addDrop(ModBlocks.DARK_OAK_TABLE_SAW);
+        addDrop(ModBlocks.MANGROVE_TABLE_SAW);
+        addDrop(ModBlocks.CHERRY_TABLE_SAW);
+        addDrop(ModBlocks.BAMBOO_TABLE_SAW);
+        addDrop(ModBlocks.CRIMSON_TABLE_SAW);
+        addDrop(ModBlocks.WARPED_TABLE_SAW);
 
         addDrop(ModBlocks.GALVANIZED_SQUARE_STEEL_BEAM);
         addDrop(ModBlocks.GALVANIZED_SQUARE_STEEL, (Block block) -> this.multifaceGrowthDrops((Block)block, WITHOUT_SILK_TOUCH));
@@ -85,6 +108,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.ECO_FRIENDLY_WARPED_WART_VENEERS, (Block block) -> this.multifaceGrowthDrops((Block)block, WITHOUT_SILK_TOUCH));
         addDrop(ModBlocks.ECO_FRIENDLY_MOSS_VENEERS, (Block block) -> this.multifaceGrowthDrops((Block)block, WITHOUT_SILK_TOUCH));
         addDrop(ModBlocks.ECO_FRIENDLY_GRASS_VENEERS, (Block block) -> this.multifaceGrowthDrops((Block)block, WITH_SILK_TOUCH));
+
+
 
 
 

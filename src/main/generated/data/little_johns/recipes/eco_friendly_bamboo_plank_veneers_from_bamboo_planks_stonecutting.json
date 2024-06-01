@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:bamboo_planks"
+  },
+  "result": {
+    "count": 4,
+    "id": "little_johns:eco_friendly_bamboo_plank_veneers"
+  }
+}

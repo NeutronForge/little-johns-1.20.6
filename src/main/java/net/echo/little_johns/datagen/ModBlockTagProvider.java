@@ -27,6 +27,18 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         // AXE MINEABLE
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
 
+                .add(ModBlocks.OAK_TABLE_SAW)
+                .add(ModBlocks.SPRUCE_TABLE_SAW)
+                .add(ModBlocks.BIRCH_TABLE_SAW)
+                .add(ModBlocks.JUNGLE_TABLE_SAW)
+                .add(ModBlocks.ACACIA_TABLE_SAW)
+                .add(ModBlocks.DARK_OAK_TABLE_SAW)
+                .add(ModBlocks.MANGROVE_TABLE_SAW)
+                .add(ModBlocks.CHERRY_TABLE_SAW)
+                .add(ModBlocks.BAMBOO_TABLE_SAW)
+                .add(ModBlocks.CRIMSON_TABLE_SAW)
+                .add(ModBlocks.WARPED_TABLE_SAW)
+
                 .add(ModBlocks.OAK_WOOD_FRAMEWORK)
                 .add(ModBlocks.SPRUCE_WOOD_FRAMEWORK)
                 .add(ModBlocks.BIRCH_WOOD_FRAMEWORK)
