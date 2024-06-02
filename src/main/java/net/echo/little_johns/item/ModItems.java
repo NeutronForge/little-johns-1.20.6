@@ -34,6 +34,27 @@ public class ModItems {
 
     private static void addItemsToFunctionalItemGroup(FabricItemGroupEntries entries) {
 
+
+        entries.add(ModBlocks.CHANDELIER);
+        entries.add(ModBlocks.WHITE_CHANDELIER);
+        entries.add(ModBlocks.LIGHT_GRAY_CHANDELIER);
+        entries.add(ModBlocks.GRAY_CHANDELIER);
+        entries.add(ModBlocks.BLACK_CHANDELIER);
+        entries.add(ModBlocks.BROWN_CHANDELIER);
+        entries.add(ModBlocks.RED_CHANDELIER);
+        entries.add(ModBlocks.ORANGE_CHANDELIER);
+        entries.add(ModBlocks.YELLOW_CHANDELIER);
+        entries.add(ModBlocks.LIME_CHANDELIER);
+        entries.add(ModBlocks.GREEN_CHANDELIER);
+        entries.add(ModBlocks.CYAN_CHANDELIER);
+        entries.add(ModBlocks.LIGHT_BLUE_CHANDELIER);
+        entries.add(ModBlocks.BLUE_CHANDELIER);
+        entries.add(ModBlocks.PURPLE_CHANDELIER);
+        entries.add(ModBlocks.MAGENTA_CHANDELIER);
+        entries.add(ModBlocks.PINK_CHANDELIER);
+
+
+
         entries.add(ModBlocks.OAK_TABLE_SAW);
         entries.add(ModBlocks.SPRUCE_TABLE_SAW);
         entries.add(ModBlocks.BIRCH_TABLE_SAW);
@@ -170,6 +191,32 @@ public class ModItems {
 
     }
 
+    private static void addItemsToColoredBlocksItemGroup(FabricItemGroupEntries entries) {
+
+        entries.add(ModBlocks.CHANDELIER);
+        entries.add(ModBlocks.WHITE_CHANDELIER);
+        entries.add(ModBlocks.LIGHT_GRAY_CHANDELIER);
+        entries.add(ModBlocks.GRAY_CHANDELIER);
+        entries.add(ModBlocks.BLACK_CHANDELIER);
+        entries.add(ModBlocks.BROWN_CHANDELIER);
+        entries.add(ModBlocks.RED_CHANDELIER);
+        entries.add(ModBlocks.ORANGE_CHANDELIER);
+        entries.add(ModBlocks.YELLOW_CHANDELIER);
+        entries.add(ModBlocks.LIME_CHANDELIER);
+        entries.add(ModBlocks.GREEN_CHANDELIER);
+        entries.add(ModBlocks.CYAN_CHANDELIER);
+        entries.add(ModBlocks.LIGHT_BLUE_CHANDELIER);
+        entries.add(ModBlocks.BLUE_CHANDELIER);
+        entries.add(ModBlocks.PURPLE_CHANDELIER);
+        entries.add(ModBlocks.MAGENTA_CHANDELIER);
+        entries.add(ModBlocks.PINK_CHANDELIER);
+
+
+    }
+
+
+
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(LittleJohns.MOD_ID, name), item);
     }
@@ -181,5 +228,6 @@ public class ModItems {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(ModItems::addItemsToToolsItemGroup);
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FUNCTIONAL).register(ModItems::addItemsToFunctionalItemGroup);
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(ModItems::addItemsToBuildingBlocksItemGroup);
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(ModItems::addItemsToColoredBlocksItemGroup);
     }
 }

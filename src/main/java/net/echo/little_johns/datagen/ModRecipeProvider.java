@@ -289,8 +289,46 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
 
 
+        offerChandelierRecipe(Items.CANDLE, ModBlocks.CHANDELIER, exporter);
+        offerChandelierRecipe(Items.WHITE_CANDLE, ModBlocks.WHITE_CHANDELIER, exporter);
+        offerChandelierRecipe(Items.LIGHT_GRAY_CANDLE, ModBlocks.LIGHT_GRAY_CHANDELIER, exporter);
+        offerChandelierRecipe(Items.GRAY_CANDLE, ModBlocks.GRAY_CHANDELIER, exporter);
+        offerChandelierRecipe(Items.BLACK_CANDLE, ModBlocks.BLACK_CHANDELIER, exporter);
+        offerChandelierRecipe(Items.BROWN_CANDLE, ModBlocks.BROWN_CHANDELIER, exporter);
+        offerChandelierRecipe(Items.RED_CANDLE, ModBlocks.RED_CHANDELIER, exporter);
+        offerChandelierRecipe(Items.ORANGE_CANDLE, ModBlocks.ORANGE_CHANDELIER, exporter);
+        offerChandelierRecipe(Items.YELLOW_CANDLE, ModBlocks.YELLOW_CHANDELIER, exporter);
+        offerChandelierRecipe(Items.LIME_CANDLE, ModBlocks.LIME_CHANDELIER, exporter);
+        offerChandelierRecipe(Items.GREEN_CANDLE, ModBlocks.GREEN_CHANDELIER, exporter);
+        offerChandelierRecipe(Items.CYAN_CANDLE, ModBlocks.CYAN_CHANDELIER, exporter);
+        offerChandelierRecipe(Items.LIGHT_BLUE_CANDLE, ModBlocks.LIGHT_BLUE_CHANDELIER, exporter);
+        offerChandelierRecipe(Items.BLUE_CANDLE, ModBlocks.BLUE_CHANDELIER, exporter);
+        offerChandelierRecipe(Items.PURPLE_CANDLE, ModBlocks.PURPLE_CHANDELIER, exporter);
+        offerChandelierRecipe(Items.MAGENTA_CANDLE, ModBlocks.MAGENTA_CHANDELIER, exporter);
+        offerChandelierRecipe(Items.PINK_CANDLE, ModBlocks.PINK_CHANDELIER, exporter);
+
+
+
+
+
     }
 
+
+
+
+
+
+    private void offerChandelierRecipe(ItemConvertible inputCandle, ItemConvertible output, RecipeExporter exporter) {
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, output, 1)
+                .input(Character.valueOf('#'), Items.IRON_INGOT)
+                .input(Character.valueOf('*'), Items.IRON_NUGGET)
+                .input(Character.valueOf('@'), inputCandle)
+                .pattern(" * ")
+                .pattern("@#@")
+                .pattern("#*#")
+                .criterion("has_candle", (AdvancementCriterion) VanillaRecipeProvider.conditionsFromItem(inputCandle))
+                .criterion("has_iron_ingot", (AdvancementCriterion) VanillaRecipeProvider.conditionsFromItem(Items.IRON_INGOT)).offerTo(exporter);
+    }
 
 
     private void offerCuttingGroupRecipe(RecipeExporter exporter, ItemConvertible inputLog, ItemConvertible inputPlanks, ItemConvertible outputLogVeneers, ItemConvertible outputFramework, ItemConvertible outputPlanks, ItemConvertible outputPlankVeneers, ItemConvertible outputStairs, ItemConvertible outputSlabs, ItemConvertible outputFence, ItemConvertible outputFenceGate, ItemConvertible outputDoor, ItemConvertible outputTrapdoor) {

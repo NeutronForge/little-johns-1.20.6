@@ -4,11 +4,9 @@ import net.echo.little_johns.LittleJohns;
 import net.echo.little_johns.block.custom.*;
 import net.echo.little_johns.block.custom.EcoFriendlyWoodVeneersBlock;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.minecraft.block.AbstractBlock;
-import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
-import net.minecraft.block.MapColor;
+import net.minecraft.block.*;
 import net.minecraft.block.enums.Instrument;
+import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -166,9 +164,30 @@ public class ModBlocks {
             new EcoFriendlyWoodVeneersBlock(FabricBlockSettings.copyOf(Blocks.GRASS_BLOCK).nonOpaque()));
 
 
-    // LAYER BLOCKS
+    // CHANDELIERS
+    public static final Block CHANDELIER = registerBlock("chandelier", ModBlocks.createChandelierBlock(MapColor.PALE_YELLOW));
+    public static final Block WHITE_CHANDELIER = registerBlock("white_chandelier", ModBlocks.createChandelierBlock(MapColor.WHITE_GRAY));
+    public static final Block LIGHT_GRAY_CHANDELIER = registerBlock("light_gray_chandelier", ModBlocks.createChandelierBlock(MapColor.LIGHT_GRAY));
+    public static final Block GRAY_CHANDELIER = registerBlock("gray_chandelier", ModBlocks.createChandelierBlock(MapColor.GRAY));
+    public static final Block BLACK_CHANDELIER = registerBlock("black_chandelier", ModBlocks.createChandelierBlock(MapColor.BLACK));
+    public static final Block BROWN_CHANDELIER = registerBlock("brown_chandelier", ModBlocks.createChandelierBlock(MapColor.BROWN));
+    public static final Block RED_CHANDELIER = registerBlock("red_chandelier", ModBlocks.createChandelierBlock(MapColor.RED));
+    public static final Block ORANGE_CHANDELIER = registerBlock("orange_chandelier", ModBlocks.createChandelierBlock(MapColor.ORANGE));
+    public static final Block YELLOW_CHANDELIER = registerBlock("yellow_chandelier", ModBlocks.createChandelierBlock(MapColor.YELLOW));
+    public static final Block LIME_CHANDELIER = registerBlock("lime_chandelier", ModBlocks.createChandelierBlock(MapColor.LIME));
+    public static final Block GREEN_CHANDELIER = registerBlock("green_chandelier", ModBlocks.createChandelierBlock(MapColor.GREEN));
+    public static final Block CYAN_CHANDELIER = registerBlock("cyan_chandelier", ModBlocks.createChandelierBlock(MapColor.CYAN));
+    public static final Block LIGHT_BLUE_CHANDELIER = registerBlock("light_blue_chandelier", ModBlocks.createChandelierBlock(MapColor.LIGHT_BLUE));
+    public static final Block BLUE_CHANDELIER = registerBlock("blue_chandelier", ModBlocks.createChandelierBlock(MapColor.BLUE));
+    public static final Block PURPLE_CHANDELIER = registerBlock("purple_chandelier", ModBlocks.createChandelierBlock(MapColor.PURPLE));
+    public static final Block MAGENTA_CHANDELIER = registerBlock("magenta_chandelier", ModBlocks.createChandelierBlock(MapColor.MAGENTA));
+    public static final Block PINK_CHANDELIER = registerBlock("pink_chandelier", ModBlocks.createChandelierBlock(MapColor.PINK));
 
 
+
+    private static Block createChandelierBlock(MapColor color) {
+        return new ChandelierBlock(AbstractBlock.Settings.create().solid().requiresTool().mapColor(color).nonOpaque().strength(5.0f, 6.0f).sounds(BlockSoundGroup.CHAIN).luminance(ChandelierBlock.STATE_TO_LUMINANCE).pistonBehavior(PistonBehavior.DESTROY));
+    }
 
 
     // ----------------- //

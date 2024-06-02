@@ -22,7 +22,26 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.GALVANIZED_SQUARE_STEEL_BLOCK)
                 .add(ModBlocks.GALVANIZED_SQUARE_STEEL_BEAM)
                 .add(ModBlocks.GALVANIZED_SQUARE_STEEL)
-                .add(ModBlocks.GALVANIZED_SQUARE_STEEL_GRATE);
+                .add(ModBlocks.GALVANIZED_SQUARE_STEEL_GRATE)
+
+                .add(ModBlocks.CHANDELIER)
+                .add(ModBlocks.WHITE_CHANDELIER)
+                .add(ModBlocks.ORANGE_CHANDELIER)
+                .add(ModBlocks.MAGENTA_CHANDELIER)
+                .add(ModBlocks.LIGHT_BLUE_CHANDELIER)
+                .add(ModBlocks.YELLOW_CHANDELIER)
+                .add(ModBlocks.LIME_CHANDELIER)
+                .add(ModBlocks.PINK_CHANDELIER)
+                .add(ModBlocks.GRAY_CHANDELIER)
+                .add(ModBlocks.LIGHT_GRAY_CHANDELIER)
+                .add(ModBlocks.CYAN_CHANDELIER)
+                .add(ModBlocks.PURPLE_CHANDELIER)
+                .add(ModBlocks.BLUE_CHANDELIER)
+                .add(ModBlocks.BROWN_CHANDELIER)
+                .add(ModBlocks.GREEN_CHANDELIER)
+                .add(ModBlocks.RED_CHANDELIER)
+                .add(ModBlocks.BLACK_CHANDELIER);
+
 
         // AXE MINEABLE
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
@@ -109,6 +128,28 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
         // REQUIRES DIAMOND
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL);
+
+        // CANLDE BLOCK TAG
+        getOrCreateTagBuilder(BlockTags.CANDLES)
+                .add(ModBlocks.CHANDELIER)
+                .add(ModBlocks.WHITE_CHANDELIER)
+                .add(ModBlocks.ORANGE_CHANDELIER)
+                .add(ModBlocks.MAGENTA_CHANDELIER)
+                .add(ModBlocks.LIGHT_BLUE_CHANDELIER)
+                .add(ModBlocks.YELLOW_CHANDELIER)
+                .add(ModBlocks.LIME_CHANDELIER)
+                .add(ModBlocks.PINK_CHANDELIER)
+                .add(ModBlocks.GRAY_CHANDELIER)
+                .add(ModBlocks.LIGHT_GRAY_CHANDELIER)
+                .add(ModBlocks.CYAN_CHANDELIER)
+                .add(ModBlocks.PURPLE_CHANDELIER)
+                .add(ModBlocks.BLUE_CHANDELIER)
+                .add(ModBlocks.BROWN_CHANDELIER)
+                .add(ModBlocks.GREEN_CHANDELIER)
+                .add(ModBlocks.RED_CHANDELIER)
+                .add(ModBlocks.BLACK_CHANDELIER);
+
+
 
 
     }

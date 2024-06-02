@@ -38,6 +38,24 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
     @Override
     public void generate() {
 
+        addDrop(ModBlocks.CHANDELIER);
+        addDrop(ModBlocks.WHITE_CHANDELIER);
+        addDrop(ModBlocks.LIGHT_GRAY_CHANDELIER);
+        addDrop(ModBlocks.GRAY_CHANDELIER);
+        addDrop(ModBlocks.BLACK_CHANDELIER);
+        addDrop(ModBlocks.BROWN_CHANDELIER);
+        addDrop(ModBlocks.RED_CHANDELIER);
+        addDrop(ModBlocks.ORANGE_CHANDELIER);
+        addDrop(ModBlocks.YELLOW_CHANDELIER);
+        addDrop(ModBlocks.LIME_CHANDELIER);
+        addDrop(ModBlocks.GREEN_CHANDELIER);
+        addDrop(ModBlocks.CYAN_CHANDELIER);
+        addDrop(ModBlocks.LIGHT_BLUE_CHANDELIER);
+        addDrop(ModBlocks.BLUE_CHANDELIER);
+        addDrop(ModBlocks.PURPLE_CHANDELIER);
+        addDrop(ModBlocks.MAGENTA_CHANDELIER);
+        addDrop(ModBlocks.PINK_CHANDELIER);
+
 
         addDrop(ModBlocks.OAK_TABLE_SAW);
         addDrop(ModBlocks.SPRUCE_TABLE_SAW);

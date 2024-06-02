@@ -1,8 +1,9 @@
-// 1.20.6	2024-06-01T15:20:27.5192773	Little John's/Tags for minecraft:block
+// 1.20.6	2024-06-02T16:18:01.6169792	Little John's/Tags for minecraft:block
 0955f649143f5f7c6c54e3a7a5389c990022ca45 data\minecraft\tags\blocks\needs_stone_tool.json
 44a3eb0288c673e49c60622c05c634f071dc3a87 data\minecraft\tags\blocks\mineable\shovel.json
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data\minecraft\tags\blocks\needs_diamond_tool.json
-74fc5d0417a5f020849019bc609a91d4e21a946d data\minecraft\tags\blocks\mineable\pickaxe.json
+06433cfb897783422df4d2b04f3101ea42f5934b data\minecraft\tags\blocks\candles.json
 e8186aad126adc1fc5944f14a9ad06b988444d8e data\minecraft\tags\blocks\needs_iron_tool.json
+e13bda3fdb7e6697248c60c99998c50e396f3dec data\minecraft\tags\blocks\mineable\pickaxe.json
 97702ffc980502ea19b2620c53be0612efea0bb6 data\minecraft\tags\blocks\mineable\hoe.json
 5e777e7effc463d506864453df643d611db805ee data\minecraft\tags\blocks\mineable\axe.json
