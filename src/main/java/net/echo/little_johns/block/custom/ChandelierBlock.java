@@ -42,11 +42,11 @@ public class ChandelierBlock
     public static final BooleanProperty LIT = AbstractCandleBlock.LIT;
     public static final BooleanProperty HANGING = Properties.HANGING;
     public static final BooleanProperty WATERLOGGED = Properties.WATERLOGGED;
-    public static final ToIntFunction<BlockState> STATE_TO_LUMINANCE =  state -> state.get(LIT) != false ? 12 : 0;
+    public static final ToIntFunction<BlockState> STATE_TO_LUMINANCE =  state -> state.get(LIT) != false ? 15 : 0;
     private static final Int2ObjectMap<List<Vec3d>> CHANDELIER_STATE_TO_PARTICLE_OFFSETS = Util.make(() -> {
         Int2ObjectOpenHashMap int2ObjectMap = new Int2ObjectOpenHashMap();
         int2ObjectMap.defaultReturnValue(ImmutableList.of());
-        int2ObjectMap.put(0, ImmutableList.of( new Vec3d(0.5, 0.9375, 0.1875), new Vec3d(0.1875, 0.9375, 0.5), new Vec3d(0.8125, 0.9375, 0.5), new Vec3d(0.5, 0.9375, 0.8125)));
+        int2ObjectMap.put(0, ImmutableList.of( new Vec3d(0.5, 0.9375, 0.1875), new Vec3d(0.1875, 0.9375, 0.5), new Vec3d(0.8125, 0.9375, 0.5), new Vec3d(0.5, 0.9375, 0.8125), new Vec3d(0.5, 1.0625, 0.5)));
         int2ObjectMap.put(1, ImmutableList.of( new Vec3d(0.5, 0.9375, 0.1875), new Vec3d(0.1875, 0.9375, 0.5), new Vec3d(0.8125, 0.9375, 0.5), new Vec3d(0.5, 0.9375, 0.8125)));
         return Int2ObjectMaps.unmodifiable(int2ObjectMap);
     });
