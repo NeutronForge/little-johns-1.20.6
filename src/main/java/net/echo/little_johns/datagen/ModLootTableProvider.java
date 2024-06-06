@@ -69,6 +69,12 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.CRIMSON_TABLE_SAW);
         addDrop(ModBlocks.WARPED_TABLE_SAW);
 
+        addDrop(ModBlocks.GRAND_CHAIN);
+        addDrop(ModBlocks.COLOSSAL_CHAIN);
+        addDrop(ModBlocks.GOLDEN_CHAIN);
+        addDrop(ModBlocks.GOLDEN_GRAND_CHAIN);
+        addDrop(ModBlocks.GOLDEN_COLOSSAL_CHAIN);
+
         addDrop(ModBlocks.GALVANIZED_SQUARE_STEEL_BEAM);
         addDrop(ModBlocks.GALVANIZED_SQUARE_STEEL, (Block block) -> this.multifaceGrowthDrops((Block)block, WITHOUT_SILK_TOUCH));
         addDrop(ModBlocks.GALVANIZED_SQUARE_STEEL_GRATE, (Block block) -> this.multifaceGrowthDrops((Block)block, WITHOUT_SILK_TOUCH));

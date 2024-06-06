@@ -9,6 +9,8 @@ import net.minecraft.block.enums.Instrument;
 import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
+import net.minecraft.item.Items;
+import net.minecraft.particle.ParticleTypes;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
@@ -183,6 +185,19 @@ public class ModBlocks {
     public static final Block MAGENTA_CHANDELIER = registerBlock("magenta_chandelier", ModBlocks.createChandelierBlock(MapColor.MAGENTA));
     public static final Block PINK_CHANDELIER = registerBlock("pink_chandelier", ModBlocks.createChandelierBlock(MapColor.PINK));
 
+
+    // CHAINS
+    public static final Block GRAND_CHAIN = registerBlock("grand_chain",
+            new GrandChainBlock(FabricBlockSettings.copyOf(Blocks.CHAIN).strength(5.5f, 7.0f).nonOpaque()));
+    public static final Block COLOSSAL_CHAIN = registerBlock("colossal_chain",
+            new ColossalChainBlock(FabricBlockSettings.copyOf(Blocks.CHAIN).strength(6.0f, 8.0f).nonOpaque()));
+
+    public static final Block GOLDEN_CHAIN = registerBlock("golden_chain",
+            new ChainBlock(FabricBlockSettings.copyOf(Blocks.CHAIN).strength(5.f, 6.0f).nonOpaque()));
+    public static final Block GOLDEN_GRAND_CHAIN = registerBlock("golden_grand_chain",
+            new GrandChainBlock(FabricBlockSettings.copyOf(Blocks.CHAIN).strength(5.5f, 7.0f).nonOpaque()));
+    public static final Block GOLDEN_COLOSSAL_CHAIN = registerBlock("golden_colossal_chain",
+            new ColossalChainBlock(FabricBlockSettings.copyOf(Blocks.CHAIN).strength(6.0f, 8.0f).nonOpaque()));
 
 
     private static Block createChandelierBlock(MapColor color) {

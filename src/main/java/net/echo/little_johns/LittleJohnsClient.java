@@ -59,6 +59,12 @@ public class LittleJohnsClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.RED_CHANDELIER, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BLACK_CHANDELIER, RenderLayer.getCutout());
 
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GRAND_CHAIN, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.COLOSSAL_CHAIN, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GOLDEN_CHAIN, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GOLDEN_GRAND_CHAIN, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GOLDEN_COLOSSAL_CHAIN, RenderLayer.getCutout());
+
         // NATURAL BLOCK COLOR PROVIDERS
         // GRASS
         ColorProviderRegistry.BLOCK.register((state, world, pos, tintIndex) -> {

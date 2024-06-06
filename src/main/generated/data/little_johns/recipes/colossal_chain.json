@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+    "@": {
+      "item": "minecraft:chain"
+    }
+  },
+  "pattern": [
+    "#",
+    "@",
+    "#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "little_johns:colossal_chain"
+  }
+}

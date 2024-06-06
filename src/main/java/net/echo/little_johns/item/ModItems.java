@@ -5,6 +5,7 @@ import net.echo.little_johns.block.ModBlocks;
 import net.echo.little_johns.sound.ModSounds;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.minecraft.block.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.item.MusicDiscItem;
@@ -34,6 +35,12 @@ public class ModItems {
 
     private static void addItemsToFunctionalItemGroup(FabricItemGroupEntries entries) {
 
+        entries.add(Blocks.CHAIN);
+        entries.add(ModBlocks.GRAND_CHAIN);
+        entries.add(ModBlocks.COLOSSAL_CHAIN);
+        entries.add(ModBlocks.GOLDEN_CHAIN);
+        entries.add(ModBlocks.GOLDEN_GRAND_CHAIN);
+        entries.add(ModBlocks.GOLDEN_COLOSSAL_CHAIN);
 
         entries.add(ModBlocks.CHANDELIER);
         entries.add(ModBlocks.WHITE_CHANDELIER);

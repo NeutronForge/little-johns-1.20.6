@@ -30,6 +30,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
     public void generate(RecipeExporter exporter) {
 
 
+
+
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.GALVANIZED_SQUARE_STEEL_BLOCK, 1)
                 .input(Character.valueOf('G'), ModBlocks.GALVANIZED_SQUARE_STEEL)
                 .input(Character.valueOf('B'), ModBlocks.GALVANIZED_SQUARE_STEEL_BEAM)
@@ -311,6 +313,13 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
 
 
+
+        offerChainRecipe(Items.CHAIN, Items.IRON_NUGGET, ModBlocks.GRAND_CHAIN, 1, "has_chain", exporter);
+        offerChainRecipe(Items.CHAIN, Items.IRON_INGOT, ModBlocks.COLOSSAL_CHAIN, 1, "has_chain", exporter);
+        offerChainRecipe(Items.GOLD_INGOT, Items.GOLD_NUGGET, ModBlocks.GOLDEN_CHAIN, 1, "has_gold_ingot", exporter);
+        offerChainRecipe(ModBlocks.GOLDEN_CHAIN, Items.GOLD_NUGGET, ModBlocks.GOLDEN_GRAND_CHAIN, 1, "has_golden_chain", exporter);
+        offerChainRecipe(ModBlocks.GOLDEN_CHAIN, Items.GOLD_INGOT, ModBlocks.GOLDEN_COLOSSAL_CHAIN, 1, "has_golden_chain", exporter);
+
     }
 
 
@@ -358,6 +367,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         SingleItemRecipeJsonBuilder.createStonecutting(Ingredient.ofItems(input), category, output, count).criterion(RecipeProvider.hasItem(input), (AdvancementCriterion)RecipeProvider.conditionsFromItem(input)).offerTo(exporter, RecipeProvider.convertBetween(output, input) + "_stonecutting");
     }
 
+    private void offerChainRecipe(ItemConvertible inputMiddle, ItemConvertible inputTopBottom, ItemConvertible output, int amount, String criterion, RecipeExporter exporter) {
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, output, amount)
+                .input(Character.valueOf('@'), inputMiddle)
+                .input(Character.valueOf('#'), inputTopBottom)
+                .pattern("#")
+                .pattern("@")
+                .pattern("#")
+                .criterion(criterion, (AdvancementCriterion) VanillaRecipeProvider.conditionsFromItem(inputMiddle)).offerTo(exporter);
+    }
 
     private void offerEcoFriendlyWoodVeneersRecipe(RecipeCategory category, Block output, int count, Block input, String criterion, RecipeExporter exporter) {
 

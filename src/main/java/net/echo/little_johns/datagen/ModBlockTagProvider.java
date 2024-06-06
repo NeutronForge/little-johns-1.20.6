@@ -40,7 +40,13 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.BROWN_CHANDELIER)
                 .add(ModBlocks.GREEN_CHANDELIER)
                 .add(ModBlocks.RED_CHANDELIER)
-                .add(ModBlocks.BLACK_CHANDELIER);
+                .add(ModBlocks.BLACK_CHANDELIER)
+
+                .add(ModBlocks.GRAND_CHAIN)
+                .add(ModBlocks.COLOSSAL_CHAIN)
+                .add(ModBlocks.GOLDEN_CHAIN)
+                .add(ModBlocks.GOLDEN_GRAND_CHAIN)
+                .add(ModBlocks.GOLDEN_COLOSSAL_CHAIN);
 
 
         // AXE MINEABLE

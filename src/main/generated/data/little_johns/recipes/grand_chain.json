@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:iron_nugget"
+    },
+    "@": {
+      "item": "minecraft:chain"
+    }
+  },
+  "pattern": [
+    "#",
+    "@",
+    "#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "little_johns:grand_chain"
+  }
+}
