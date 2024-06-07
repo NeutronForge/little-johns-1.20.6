@@ -35,7 +35,7 @@ public class ModItems {
 
     private static void addItemsToFunctionalItemGroup(FabricItemGroupEntries entries) {
 
-        entries.add(Blocks.CHAIN);
+
         entries.add(ModBlocks.GRAND_CHAIN);
         entries.add(ModBlocks.COLOSSAL_CHAIN);
         entries.add(ModBlocks.GOLDEN_CHAIN);
@@ -138,6 +138,16 @@ public class ModItems {
 
     }
     private static void addItemsToBuildingBlocksItemGroup(FabricItemGroupEntries entries) {
+
+
+
+        entries.add(ModBlocks.GRAND_CHAIN);
+        entries.add(ModBlocks.COLOSSAL_CHAIN);
+        entries.add(ModBlocks.GOLDEN_CHAIN);
+        entries.add(ModBlocks.GOLDEN_GRAND_CHAIN);
+        entries.add(ModBlocks.GOLDEN_COLOSSAL_CHAIN);
+
+
         entries.add(ModBlocks.GALVANIZED_SQUARE_STEEL_BLOCK);
         entries.add(ModBlocks.GALVANIZED_SQUARE_STEEL_BEAM);
         entries.add(ModBlocks.GALVANIZED_SQUARE_STEEL);
