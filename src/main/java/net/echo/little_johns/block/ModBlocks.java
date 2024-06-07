@@ -3,6 +3,7 @@ package net.echo.little_johns.block;
 import net.echo.little_johns.LittleJohns;
 import net.echo.little_johns.block.custom.*;
 import net.echo.little_johns.block.custom.EcoFriendlyWoodVeneersBlock;
+import net.echo.little_johns.sound.ModBlockSoundGroup;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
 import net.minecraft.block.enums.Instrument;
@@ -188,16 +189,16 @@ public class ModBlocks {
 
     // CHAINS
     public static final Block GRAND_CHAIN = registerBlock("grand_chain",
-            new GrandChainBlock(FabricBlockSettings.copyOf(Blocks.CHAIN).strength(5.5f, 7.0f).nonOpaque()));
+            new GrandChainBlock(FabricBlockSettings.copyOf(Blocks.CHAIN).strength(6.0f, 7.0f).nonOpaque().sounds(ModBlockSoundGroup.GRAND_CHAIN)));
     public static final Block COLOSSAL_CHAIN = registerBlock("colossal_chain",
-            new ColossalChainBlock(FabricBlockSettings.copyOf(Blocks.CHAIN).strength(6.0f, 8.0f).nonOpaque()));
+            new ColossalChainBlock(FabricBlockSettings.copyOf(Blocks.CHAIN).strength(8.0f, 10.0f).nonOpaque().sounds(ModBlockSoundGroup.COLOSSAL_CHAIN)));
 
     public static final Block GOLDEN_CHAIN = registerBlock("golden_chain",
             new ChainBlock(FabricBlockSettings.copyOf(Blocks.CHAIN).strength(5.f, 6.0f).nonOpaque()));
     public static final Block GOLDEN_GRAND_CHAIN = registerBlock("golden_grand_chain",
-            new GrandChainBlock(FabricBlockSettings.copyOf(Blocks.CHAIN).strength(5.5f, 7.0f).nonOpaque()));
+            new GrandChainBlock(FabricBlockSettings.copyOf(Blocks.CHAIN).strength(6.0f, 7.0f).nonOpaque().sounds(ModBlockSoundGroup.GRAND_CHAIN)));
     public static final Block GOLDEN_COLOSSAL_CHAIN = registerBlock("golden_colossal_chain",
-            new ColossalChainBlock(FabricBlockSettings.copyOf(Blocks.CHAIN).strength(6.0f, 8.0f).nonOpaque()));
+            new ColossalChainBlock(FabricBlockSettings.copyOf(Blocks.CHAIN).strength(8.0f, 10.0f).nonOpaque().sounds(ModBlockSoundGroup.COLOSSAL_CHAIN)));
 
 
     private static Block createChandelierBlock(MapColor color) {

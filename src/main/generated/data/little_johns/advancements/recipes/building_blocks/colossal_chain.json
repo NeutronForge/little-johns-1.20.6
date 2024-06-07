@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_chain": {
+    "has_grand_chain": {
       "conditions": {
         "items": [
           {
-            "items": "minecraft:chain"
+            "items": "little_johns:grand_chain"
           }
         ]
       },
@@ -21,7 +21,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_chain"
+      "has_grand_chain"
     ]
   ],
   "rewards": {

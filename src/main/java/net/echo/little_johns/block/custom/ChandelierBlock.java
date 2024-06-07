@@ -56,7 +56,8 @@ public class ChandelierBlock
             Block.createCuboidShape(7.0, 5.0, 2.0, 9.0, 13.0, 4.0),
             Block.createCuboidShape(12.0, 5.0, 7.0, 14.0, 13.0, 9.0),
             Block.createCuboidShape(7.0, 5.0, 12.0, 9.0, 13.0, 14.0),
-            Block.createCuboidShape(2.0, 5.0, 7.0, 4.0, 13.0, 9.0));
+            Block.createCuboidShape(2.0, 5.0, 7.0, 4.0, 13.0, 9.0),
+            Block.createCuboidShape(7.0, 7.0, 7.0, 9.0, 15.0, 9.0));
     protected static final VoxelShape HANGING_SHAPE = VoxelShapes.union(
             Block.createCuboidShape(6.5, 3.0, 6.5, 9.5, 16.0, 9.5),
             Block.createCuboidShape(2.0, 2.0, 8.0, 14.0, 5.0, 8.0),

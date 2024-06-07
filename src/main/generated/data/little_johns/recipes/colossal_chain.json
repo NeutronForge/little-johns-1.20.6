@@ -6,7 +6,7 @@
       "item": "minecraft:iron_ingot"
     },
     "@": {
-      "item": "minecraft:chain"
+      "item": "little_johns:grand_chain"
     }
   },
   "pattern": [

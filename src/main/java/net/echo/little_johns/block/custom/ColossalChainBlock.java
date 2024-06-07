@@ -22,9 +22,9 @@ public class ColossalChainBlock
 
     public static final MapCodec<ColossalChainBlock> CODEC = ColossalChainBlock.createCodec(ColossalChainBlock::new);
     public static final BooleanProperty WATERLOGGED = Properties.WATERLOGGED;
-    protected static final VoxelShape Y_SHAPE = Block.createCuboidShape(5.5, 0.0, 5.5, 10.5, 16.0, 10.5);
-    protected static final VoxelShape Z_SHAPE = Block.createCuboidShape(5.5, 5.5, 0.0, 10.5, 10.5, 16.0);
-    protected static final VoxelShape X_SHAPE = Block.createCuboidShape(0.0, 5.5, 5.5, 16.0, 10.5, 10.5);
+    protected static final VoxelShape Y_SHAPE = Block.createCuboidShape(4.0, 0.0, 4.0, 12.0, 16.0, 12.0);
+    protected static final VoxelShape Z_SHAPE = Block.createCuboidShape(4.0, 4.0, 0.0, 12.0, 12.0, 16.0);
+    protected static final VoxelShape X_SHAPE = Block.createCuboidShape(0.0, 4.0, 4.0, 16.0, 12.0, 12.0);
 
     public MapCodec<ColossalChainBlock> getCodec() {
         return CODEC;
