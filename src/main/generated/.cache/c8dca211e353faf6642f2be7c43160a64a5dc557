@@ -1,6 +1,9 @@
-// 1.20.6	2024-06-07T13:57:13.217383	Little John's/Tags for minecraft:block
+// 1.20.6	2024-06-08T17:38:27.6951019	Little John's/Tags for minecraft:block
+f9ac0cd20368898c2e970844f850ade903d09ff9 data\minecraft\tags\blocks\walls.json
+c5d6de4ee2734f2dcd6e57c55ae85bd673650bd2 data\minecraft\tags\blocks\fence_gates.json
 0955f649143f5f7c6c54e3a7a5389c990022ca45 data\minecraft\tags\blocks\needs_stone_tool.json
 44a3eb0288c673e49c60622c05c634f071dc3a87 data\minecraft\tags\blocks\mineable\shovel.json
+36466e961e6364a4a260c6ff80368da95e25eacb data\minecraft\tags\blocks\wooden_fences.json
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data\minecraft\tags\blocks\needs_diamond_tool.json
 06433cfb897783422df4d2b04f3101ea42f5934b data\minecraft\tags\blocks\candles.json
 e8186aad126adc1fc5944f14a9ad06b988444d8e data\minecraft\tags\blocks\needs_iron_tool.json

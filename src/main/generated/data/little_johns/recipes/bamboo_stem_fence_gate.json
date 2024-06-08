@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "@": {
+      "item": "minecraft:bamboo_block"
+    }
+  },
+  "pattern": [
+    "   ",
+    "#@#",
+    "#@#"
+  ],
+  "result": {
+    "count": 3,
+    "id": "little_johns:bamboo_stem_fence_gate"
+  }
+}

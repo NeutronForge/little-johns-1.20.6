@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "@": {
+      "item": "minecraft:crimson_stem"
+    }
+  },
+  "pattern": [
+    "   ",
+    "#@#",
+    "#@#"
+  ],
+  "result": {
+    "count": 3,
+    "id": "little_johns:crimson_hyphae_fence_gate"
+  }
+}

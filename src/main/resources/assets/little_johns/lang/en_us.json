@@ -95,7 +95,58 @@
   "block.little_johns.eco_friendly_warped_wart_veneers": "Eco Friendly Warped Wart Veneers",
   "block.little_johns.eco_friendly_moss_veneers": "Eco Friendly Moss Veneers",
   "block.little_johns.eco_friendly_grass_veneers": "Eco Friendly Grass Veneers",
+  
+  "block.little_johns.oak_wood_wall": "Oak Wood Wall",
+  "block.little_johns.spruce_wood_wall": "Spruce Wood Wall",
+  "block.little_johns.birch_wood_wall": "Birch Wood Wall",
+  "block.little_johns.jungle_wood_wall": "Jungle Wood Wall",
+  "block.little_johns.acacia_wood_wall": "Acacia Wood Wall",
+  "block.little_johns.dark_oak_wood_wall": "Dark Oak Wood Wall",
+  "block.little_johns.mangrove_wood_wall": "Mangrove Wood Wall",
+  "block.little_johns.cherry_wood_wall": "Cherry Wood Wall",
+  "block.little_johns.bamboo_stem_wall": "Bamboo Stem Wall",
+  "block.little_johns.crimson_hyphae_wall": "Crimson Hyphae Wall",
+  "block.little_johns.warped_hyphae_wall": "Warped Hyphae Wall",
+    
+  "block.little_johns.oak_plank_wall": "Oak Plank Wall",
+  "block.little_johns.spruce_plank_wall": "Spruce Plank Wall",
+  "block.little_johns.birch_plank_wall": "Birch Plank Wall",
+  "block.little_johns.jungle_plank_wall": "Jungle Plank Wall",
+  "block.little_johns.acacia_plank_wall": "Acacia Plank Wall",
+  "block.little_johns.dark_oak_plank_wall": "Dark Oak Plank Wall",
+  "block.little_johns.mangrove_plank_wall": "Mangrove Plank Wall",
+  "block.little_johns.cherry_plank_wall": "Cherry Plank Wall",
+  "block.little_johns.bamboo_plank_wall": "Bamboo Plank Wall",
+  "block.little_johns.crimson_plank_wall": "Crimson Plank Wall",
+  "block.little_johns.warped_plank_wall": "Warped Plank Wall",
 
+
+
+  "block.little_johns.oak_wood_fence": "Oak Wood Fence",
+  "block.little_johns.spruce_wood_fence": "Spruce Wood Fence",
+  "block.little_johns.birch_wood_fence": "Birch Wood Fence",
+  "block.little_johns.jungle_wood_fence": "Jungle Wood Fence",
+  "block.little_johns.acacia_wood_fence": "Acacia Wood Fence",
+  "block.little_johns.dark_oak_wood_fence": "Dark Oak Wood Fence",
+  "block.little_johns.mangrove_wood_fence": "Mangrove Wood Fence",
+  "block.little_johns.cherry_wood_fence": "Cherry Wood Fence",
+  "block.little_johns.bamboo_stem_fence": "Bamboo Stem Fence",
+  "block.little_johns.crimson_hyphae_fence": "Crimson Hyphae Fence",
+  "block.little_johns.warped_hyphae_fence": "Warped Hyphae Fence",
+
+  "block.little_johns.oak_wood_fence_gate": "Oak Wood Fence Gate",
+  "block.little_johns.spruce_wood_fence_gate": "Spruce Wood Fence Gate",
+  "block.little_johns.birch_wood_fence_gate": "Birch Wood Fence Gate",
+  "block.little_johns.jungle_wood_fence_gate": "Jungle Wood Fence Gate",
+  "block.little_johns.acacia_wood_fence_gate": "Acacia Wood Fence Gate",
+  "block.little_johns.dark_oak_wood_fence_gate": "Dark Oak Wood Fence Gate",
+  "block.little_johns.mangrove_wood_fence_gate": "Mangrove Wood Fence Gate",
+  "block.little_johns.cherry_wood_fence_gate": "Cherry Wood Fence Gate",
+  "block.little_johns.bamboo_stem_fence_gate": "Bamboo Stem Fence Gate",
+  "block.little_johns.crimson_hyphae_fence_gate": "Crimson Hyphae Fence Gate",
+  "block.little_johns.warped_hyphae_fence_gate": "Warped Hyphae Fence Gate",
+
+  
 
 
   "item.little_johns.morsmordre_crazy_donkey_music_disc": "Music Disc",

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "@": {
+      "item": "minecraft:oak_log"
+    }
+  },
+  "pattern": [
+    "   ",
+    "@#@",
+    "@#@"
+  ],
+  "result": {
+    "count": 3,
+    "id": "little_johns:oak_wood_fence"
+  }
+}

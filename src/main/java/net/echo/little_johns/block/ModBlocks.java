@@ -6,12 +6,9 @@ import net.echo.little_johns.block.custom.EcoFriendlyWoodVeneersBlock;
 import net.echo.little_johns.sound.ModBlockSoundGroup;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
-import net.minecraft.block.enums.Instrument;
 import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
-import net.minecraft.item.Items;
-import net.minecraft.particle.ParticleTypes;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
@@ -167,6 +164,106 @@ public class ModBlocks {
             new EcoFriendlyWoodVeneersBlock(FabricBlockSettings.copyOf(Blocks.GRASS_BLOCK).nonOpaque()));
 
 
+    // FENCES
+    public static final Block OAK_WOOD_FENCE = registerBlock("oak_wood_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.OAK_WOOD)));
+    public static final Block SPRUCE_WOOD_FENCE = registerBlock("spruce_wood_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.SPRUCE_WOOD)));
+    public static final Block BIRCH_WOOD_FENCE = registerBlock("birch_wood_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.BIRCH_WOOD)));
+    public static final Block JUNGLE_WOOD_FENCE = registerBlock("jungle_wood_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.JUNGLE_WOOD)));
+    public static final Block ACACIA_WOOD_FENCE = registerBlock("acacia_wood_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.ACACIA_WOOD)));
+    public static final Block DARK_OAK_WOOD_FENCE = registerBlock("dark_oak_wood_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.DARK_OAK_WOOD)));
+    public static final Block MANGROVE_WOOD_FENCE = registerBlock("mangrove_wood_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.MANGROVE_WOOD)));
+    public static final Block CHERRY_WOOD_FENCE = registerBlock("cherry_wood_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.CHERRY_WOOD)));
+    public static final Block BAMBOO_STEM_FENCE = registerBlock("bamboo_stem_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.BAMBOO_PLANKS)));
+    public static final Block CRIMSON_HYPHAE_FENCE = registerBlock("crimson_hyphae_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.CRIMSON_HYPHAE)));
+    public static final Block WARPED_HYPHAE_FENCE = registerBlock("warped_hyphae_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.WARPED_HYPHAE)));
+
+    // FENCE GATES
+    public static final Block OAK_WOOD_FENCE_GATE = registerBlock("oak_wood_fence_gate",
+            new FenceGateBlock(WoodType.OAK, FabricBlockSettings.copyOf(Blocks.OAK_WOOD)));
+    public static final Block SPRUCE_WOOD_FENCE_GATE = registerBlock("spruce_wood_fence_gate",
+            new FenceGateBlock(WoodType.SPRUCE, FabricBlockSettings.copyOf(Blocks.SPRUCE_WOOD)));
+    public static final Block BIRCH_WOOD_FENCE_GATE = registerBlock("birch_wood_fence_gate",
+            new FenceGateBlock(WoodType.BIRCH, FabricBlockSettings.copyOf(Blocks.BIRCH_WOOD)));
+    public static final Block JUNGLE_WOOD_FENCE_GATE = registerBlock("jungle_wood_fence_gate",
+            new FenceGateBlock(WoodType.JUNGLE, FabricBlockSettings.copyOf(Blocks.JUNGLE_WOOD)));
+    public static final Block ACACIA_WOOD_FENCE_GATE = registerBlock("acacia_wood_fence_gate",
+            new FenceGateBlock(WoodType.ACACIA, FabricBlockSettings.copyOf(Blocks.ACACIA_WOOD)));
+    public static final Block DARK_OAK_WOOD_FENCE_GATE = registerBlock("dark_oak_wood_fence_gate",
+            new FenceGateBlock(WoodType.DARK_OAK, FabricBlockSettings.copyOf(Blocks.DARK_OAK_WOOD)));
+    public static final Block MANGROVE_WOOD_FENCE_GATE = registerBlock("mangrove_wood_fence_gate",
+            new FenceGateBlock(WoodType.MANGROVE, FabricBlockSettings.copyOf(Blocks.MANGROVE_WOOD)));
+    public static final Block CHERRY_WOOD_FENCE_GATE = registerBlock("cherry_wood_fence_gate",
+            new FenceGateBlock(WoodType.CHERRY, FabricBlockSettings.copyOf(Blocks.CHERRY_WOOD)));
+    public static final Block BAMBOO_STEM_FENCE_GATE = registerBlock("bamboo_stem_fence_gate",
+            new FenceGateBlock(WoodType.BAMBOO, FabricBlockSettings.copyOf(Blocks.BAMBOO_PLANKS)));
+    public static final Block CRIMSON_HYPHAE_FENCE_GATE = registerBlock("crimson_hyphae_fence_gate",
+            new FenceGateBlock(WoodType.CRIMSON, FabricBlockSettings.copyOf(Blocks.CRIMSON_HYPHAE)));
+    public static final Block WARPED_HYPHAE_FENCE_GATE = registerBlock("warped_hyphae_fence_gate",
+            new FenceGateBlock(WoodType.WARPED, FabricBlockSettings.copyOf(Blocks.WARPED_HYPHAE)));
+    
+    
+    
+    // WALLS
+    public static final Block OAK_WOOD_WALL = registerBlock("oak_wood_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.OAK_WOOD)));
+    public static final Block SPRUCE_WOOD_WALL = registerBlock("spruce_wood_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.SPRUCE_WOOD)));
+    public static final Block BIRCH_WOOD_WALL = registerBlock("birch_wood_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.BIRCH_WOOD)));
+    public static final Block JUNGLE_WOOD_WALL = registerBlock("jungle_wood_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.JUNGLE_WOOD)));
+    public static final Block ACACIA_WOOD_WALL = registerBlock("acacia_wood_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.ACACIA_WOOD)));
+    public static final Block DARK_OAK_WOOD_WALL = registerBlock("dark_oak_wood_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.DARK_OAK_WOOD)));
+    public static final Block MANGROVE_WOOD_WALL = registerBlock("mangrove_wood_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.MANGROVE_WOOD)));
+    public static final Block CHERRY_WOOD_WALL = registerBlock("cherry_wood_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.CHERRY_WOOD)));
+    public static final Block BAMBOO_STEM_WALL = registerBlock("bamboo_stem_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.BAMBOO_PLANKS)));
+    public static final Block CRIMSON_HYPHAE_WALL = registerBlock("crimson_hyphae_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.CRIMSON_HYPHAE)));
+    public static final Block WARPED_HYPHAE_WALL = registerBlock("warped_hyphae_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.WARPED_HYPHAE)));
+
+
+    public static final Block OAK_PLANK_WALL = registerBlock("oak_plank_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+    public static final Block SPRUCE_PLANK_WALL = registerBlock("spruce_plank_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.SPRUCE_PLANKS)));
+    public static final Block BIRCH_PLANK_WALL = registerBlock("birch_plank_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.BIRCH_PLANKS)));
+    public static final Block JUNGLE_PLANK_WALL = registerBlock("jungle_plank_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.JUNGLE_PLANKS)));
+    public static final Block ACACIA_PLANK_WALL = registerBlock("acacia_plank_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.ACACIA_PLANKS)));
+    public static final Block DARK_OAK_PLANK_WALL = registerBlock("dark_oak_plank_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.DARK_OAK_PLANKS)));
+    public static final Block MANGROVE_PLANK_WALL = registerBlock("mangrove_plank_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.MANGROVE_PLANKS)));
+    public static final Block CHERRY_PLANK_WALL = registerBlock("cherry_plank_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.CHERRY_PLANKS)));
+    public static final Block BAMBOO_PLANK_WALL = registerBlock("bamboo_plank_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.BAMBOO_PLANKS)));
+    public static final Block CRIMSON_PLANK_WALL = registerBlock("crimson_plank_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.CRIMSON_PLANKS)));
+    public static final Block WARPED_PLANK_WALL = registerBlock("warped_plank_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.WARPED_PLANKS)));
+
+
+
     // CHANDELIERS
     public static final Block CHANDELIER = registerBlock("chandelier", ModBlocks.createChandelierBlock(MapColor.PALE_YELLOW));
     public static final Block WHITE_CHANDELIER = registerBlock("white_chandelier", ModBlocks.createChandelierBlock(MapColor.WHITE_GRAY));
@@ -199,6 +296,8 @@ public class ModBlocks {
             new GrandChainBlock(FabricBlockSettings.copyOf(Blocks.CHAIN).strength(6.0f, 7.0f).nonOpaque().sounds(ModBlockSoundGroup.GRAND_CHAIN)));
     public static final Block GOLDEN_COLOSSAL_CHAIN = registerBlock("golden_colossal_chain",
             new ColossalChainBlock(FabricBlockSettings.copyOf(Blocks.CHAIN).strength(8.0f, 10.0f).nonOpaque().sounds(ModBlockSoundGroup.COLOSSAL_CHAIN)));
+
+
 
 
     private static Block createChandelierBlock(MapColor color) {

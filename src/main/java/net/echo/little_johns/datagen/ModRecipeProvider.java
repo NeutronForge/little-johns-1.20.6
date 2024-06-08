@@ -14,10 +14,7 @@ import net.minecraft.item.Items;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
-import net.minecraft.registry.tag.BlockTags;
-import net.minecraft.registry.tag.TagKey;
 
-import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
 public class ModRecipeProvider extends FabricRecipeProvider {
@@ -154,14 +151,69 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerEcoFriendlyWoodVeneersRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.ECO_FRIENDLY_MOSS_VENEERS, 16, Blocks.MOSS_BLOCK, "has_moss_block", exporter);
         offerEcoFriendlyWoodVeneersRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.ECO_FRIENDLY_GRASS_VENEERS, 16, Blocks.GRASS_BLOCK, "has_moss_block", exporter);
 
+        
+        offerWallRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.OAK_PLANK_WALL, Blocks.OAK_PLANKS);
+        offerWallRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SPRUCE_PLANK_WALL, Blocks.SPRUCE_PLANKS);
+        offerWallRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.BIRCH_PLANK_WALL, Blocks.BIRCH_PLANKS);
+        offerWallRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.JUNGLE_PLANK_WALL, Blocks.JUNGLE_PLANKS);
+        offerWallRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.ACACIA_PLANK_WALL, Blocks.ACACIA_PLANKS);
+        offerWallRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.DARK_OAK_PLANK_WALL, Blocks.DARK_OAK_PLANKS);
+        offerWallRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.MANGROVE_PLANK_WALL, Blocks.MANGROVE_PLANKS);
+        offerWallRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHERRY_PLANK_WALL, Blocks.CHERRY_PLANKS);
+        offerWallRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.BAMBOO_PLANK_WALL, Blocks.BAMBOO_PLANKS);
+        offerWallRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.CRIMSON_PLANK_WALL, Blocks.CRIMSON_PLANKS);
+        offerWallRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.WARPED_PLANK_WALL, Blocks.WARPED_PLANKS);
+        
+        offerWallRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.OAK_WOOD_WALL, Blocks.OAK_LOG);
+        offerWallRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SPRUCE_WOOD_WALL, Blocks.SPRUCE_LOG);
+        offerWallRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.BIRCH_WOOD_WALL, Blocks.BIRCH_LOG);
+        offerWallRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.JUNGLE_WOOD_WALL, Blocks.JUNGLE_LOG);
+        offerWallRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.ACACIA_WOOD_WALL, Blocks.ACACIA_LOG);
+        offerWallRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.DARK_OAK_WOOD_WALL, Blocks.DARK_OAK_LOG);
+        offerWallRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.MANGROVE_WOOD_WALL, Blocks.MANGROVE_LOG);
+        offerWallRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHERRY_WOOD_WALL, Blocks.CHERRY_LOG);
+        offerWallRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.BAMBOO_STEM_WALL, Blocks.BAMBOO_BLOCK);
+        offerWallRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.CRIMSON_HYPHAE_WALL, Blocks.CRIMSON_STEM);
+        offerWallRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.WARPED_HYPHAE_WALL, Blocks.WARPED_STEM);
+        
+
+        offerFenceRecipe(Blocks.OAK_LOG, ModBlocks.OAK_WOOD_FENCE, "has_oak_log", exporter);
+        offerFenceRecipe(Blocks.SPRUCE_LOG, ModBlocks.SPRUCE_WOOD_FENCE, "has_spruce_log", exporter);
+        offerFenceRecipe(Blocks.BIRCH_LOG, ModBlocks.BIRCH_WOOD_FENCE, "has_birch_log", exporter);
+        offerFenceRecipe(Blocks.JUNGLE_LOG, ModBlocks.JUNGLE_WOOD_FENCE, "has_jungle_log", exporter);
+        offerFenceRecipe(Blocks.ACACIA_LOG, ModBlocks.ACACIA_WOOD_FENCE, "has_acacia_log", exporter);
+        offerFenceRecipe(Blocks.DARK_OAK_LOG, ModBlocks.DARK_OAK_WOOD_FENCE, "has_dark_oak_log", exporter);
+        offerFenceRecipe(Blocks.MANGROVE_LOG, ModBlocks.MANGROVE_WOOD_FENCE, "has_mangrove_log", exporter);
+        offerFenceRecipe(Blocks.CHERRY_LOG, ModBlocks.CHERRY_WOOD_FENCE, "has_cherry_log", exporter);
+        offerFenceRecipe(Blocks.BAMBOO_BLOCK, ModBlocks.BAMBOO_STEM_FENCE, "has_bamboo_block", exporter);
+        offerFenceRecipe(Blocks.CRIMSON_STEM, ModBlocks.CRIMSON_HYPHAE_FENCE, "has_crimson_stem", exporter);
+        offerFenceRecipe(Blocks.WARPED_STEM, ModBlocks.WARPED_HYPHAE_FENCE, "has_warped_stem", exporter);
+        
+        offerFenceGateRecipe(Blocks.OAK_LOG, ModBlocks.OAK_WOOD_FENCE_GATE, "has_oak_log", exporter);
+        offerFenceGateRecipe(Blocks.SPRUCE_LOG, ModBlocks.SPRUCE_WOOD_FENCE_GATE, "has_spruce_log", exporter);
+        offerFenceGateRecipe(Blocks.BIRCH_LOG, ModBlocks.BIRCH_WOOD_FENCE_GATE, "has_birch_log", exporter);
+        offerFenceGateRecipe(Blocks.JUNGLE_LOG, ModBlocks.JUNGLE_WOOD_FENCE_GATE, "has_jungle_log", exporter);
+        offerFenceGateRecipe(Blocks.ACACIA_LOG, ModBlocks.ACACIA_WOOD_FENCE_GATE, "has_acacia_log", exporter);
+        offerFenceGateRecipe(Blocks.DARK_OAK_LOG, ModBlocks.DARK_OAK_WOOD_FENCE_GATE, "has_dark_oak_log", exporter);
+        offerFenceGateRecipe(Blocks.MANGROVE_LOG, ModBlocks.MANGROVE_WOOD_FENCE_GATE, "has_mangrove_log", exporter);
+        offerFenceGateRecipe(Blocks.CHERRY_LOG, ModBlocks.CHERRY_WOOD_FENCE_GATE, "has_cherry_log", exporter);
+        offerFenceGateRecipe(Blocks.BAMBOO_BLOCK, ModBlocks.BAMBOO_STEM_FENCE_GATE, "has_bamboo_block", exporter);
+        offerFenceGateRecipe(Blocks.CRIMSON_STEM, ModBlocks.CRIMSON_HYPHAE_FENCE_GATE, "has_crimson_stem", exporter);
+        offerFenceGateRecipe(Blocks.WARPED_STEM, ModBlocks.WARPED_HYPHAE_FENCE_GATE, "has_warped_stem", exporter);
+        
+        
 
         offerCuttingGroupRecipe(exporter, Blocks.OAK_LOG, Blocks.OAK_PLANKS,
                 ModBlocks.ECO_FRIENDLY_OAK_WOOD_VENEERS,
                 ModBlocks.OAK_WOOD_FRAMEWORK,
+                ModBlocks.OAK_WOOD_WALL,
+                ModBlocks.OAK_WOOD_FENCE,
+                ModBlocks.OAK_WOOD_FENCE_GATE,
                 Blocks.OAK_PLANKS,
                 ModBlocks.ECO_FRIENDLY_OAK_PLANK_VENEERS,
                 Blocks.OAK_STAIRS,
                 Blocks.OAK_SLAB,
+                ModBlocks.OAK_PLANK_WALL,
                 Blocks.OAK_FENCE,
                 Blocks.OAK_FENCE_GATE,
                 Blocks.OAK_DOOR,
@@ -170,10 +222,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerCuttingGroupRecipe(exporter, Blocks.SPRUCE_LOG, Blocks.SPRUCE_PLANKS,
                 ModBlocks.ECO_FRIENDLY_SPRUCE_WOOD_VENEERS,
                 ModBlocks.SPRUCE_WOOD_FRAMEWORK,
+                ModBlocks.SPRUCE_WOOD_WALL,
+                ModBlocks.SPRUCE_WOOD_FENCE,
+                ModBlocks.SPRUCE_WOOD_FENCE_GATE,
                 Blocks.SPRUCE_PLANKS,
                 ModBlocks.ECO_FRIENDLY_SPRUCE_PLANK_VENEERS,
                 Blocks.SPRUCE_STAIRS,
                 Blocks.SPRUCE_SLAB,
+                ModBlocks.SPRUCE_PLANK_WALL,
                 Blocks.SPRUCE_FENCE,
                 Blocks.SPRUCE_FENCE_GATE,
                 Blocks.SPRUCE_DOOR,
@@ -182,10 +238,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerCuttingGroupRecipe(exporter, Blocks.BIRCH_LOG, Blocks.BIRCH_PLANKS,
                 ModBlocks.ECO_FRIENDLY_BIRCH_WOOD_VENEERS,
                 ModBlocks.BIRCH_WOOD_FRAMEWORK,
+                ModBlocks.BIRCH_WOOD_WALL,
+                ModBlocks.BIRCH_WOOD_FENCE,
+                ModBlocks.BIRCH_WOOD_FENCE_GATE,
                 Blocks.BIRCH_PLANKS,
                 ModBlocks.ECO_FRIENDLY_BIRCH_PLANK_VENEERS,
                 Blocks.BIRCH_STAIRS,
                 Blocks.BIRCH_SLAB,
+                ModBlocks.BIRCH_PLANK_WALL,
                 Blocks.BIRCH_FENCE,
                 Blocks.BIRCH_FENCE_GATE,
                 Blocks.BIRCH_DOOR,
@@ -194,10 +254,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerCuttingGroupRecipe(exporter, Blocks.JUNGLE_LOG, Blocks.JUNGLE_PLANKS,
                 ModBlocks.ECO_FRIENDLY_JUNGLE_WOOD_VENEERS,
                 ModBlocks.JUNGLE_WOOD_FRAMEWORK,
+                ModBlocks.JUNGLE_WOOD_WALL,
+                ModBlocks.JUNGLE_WOOD_FENCE,
+                ModBlocks.JUNGLE_WOOD_FENCE_GATE,
                 Blocks.JUNGLE_PLANKS,
                 ModBlocks.ECO_FRIENDLY_JUNGLE_PLANK_VENEERS,
                 Blocks.JUNGLE_STAIRS,
                 Blocks.JUNGLE_SLAB,
+                ModBlocks.JUNGLE_PLANK_WALL,
                 Blocks.JUNGLE_FENCE,
                 Blocks.JUNGLE_FENCE_GATE,
                 Blocks.JUNGLE_DOOR,
@@ -206,10 +270,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerCuttingGroupRecipe(exporter, Blocks.ACACIA_LOG, Blocks.ACACIA_PLANKS,
                 ModBlocks.ECO_FRIENDLY_ACACIA_WOOD_VENEERS,
                 ModBlocks.ACACIA_WOOD_FRAMEWORK,
+                ModBlocks.ACACIA_WOOD_WALL,
+                ModBlocks.ACACIA_WOOD_FENCE,
+                ModBlocks.ACACIA_WOOD_FENCE_GATE,
                 Blocks.ACACIA_PLANKS,
                 ModBlocks.ECO_FRIENDLY_ACACIA_PLANK_VENEERS,
                 Blocks.ACACIA_STAIRS,
                 Blocks.ACACIA_SLAB,
+                ModBlocks.ACACIA_PLANK_WALL,
                 Blocks.ACACIA_FENCE,
                 Blocks.ACACIA_FENCE_GATE,
                 Blocks.ACACIA_DOOR,
@@ -218,10 +286,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerCuttingGroupRecipe(exporter, Blocks.DARK_OAK_LOG, Blocks.DARK_OAK_PLANKS,
                 ModBlocks.ECO_FRIENDLY_DARK_OAK_WOOD_VENEERS,
                 ModBlocks.DARK_OAK_WOOD_FRAMEWORK,
+                ModBlocks.DARK_OAK_WOOD_WALL,
+                ModBlocks.DARK_OAK_WOOD_FENCE,
+                ModBlocks.DARK_OAK_WOOD_FENCE_GATE,
                 Blocks.DARK_OAK_PLANKS,
                 ModBlocks.ECO_FRIENDLY_DARK_OAK_PLANK_VENEERS,
                 Blocks.DARK_OAK_STAIRS,
                 Blocks.DARK_OAK_SLAB,
+                ModBlocks.DARK_OAK_PLANK_WALL,
                 Blocks.DARK_OAK_FENCE,
                 Blocks.DARK_OAK_FENCE_GATE,
                 Blocks.DARK_OAK_DOOR,
@@ -230,10 +302,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerCuttingGroupRecipe(exporter, Blocks.MANGROVE_LOG, Blocks.MANGROVE_PLANKS,
                 ModBlocks.ECO_FRIENDLY_MANGROVE_WOOD_VENEERS,
                 ModBlocks.MANGROVE_WOOD_FRAMEWORK,
+                ModBlocks.MANGROVE_WOOD_WALL,
+                ModBlocks.MANGROVE_WOOD_FENCE,
+                ModBlocks.MANGROVE_WOOD_FENCE_GATE,
                 Blocks.MANGROVE_PLANKS,
                 ModBlocks.ECO_FRIENDLY_MANGROVE_PLANK_VENEERS,
                 Blocks.MANGROVE_STAIRS,
                 Blocks.MANGROVE_SLAB,
+                ModBlocks.MANGROVE_PLANK_WALL,
                 Blocks.MANGROVE_FENCE,
                 Blocks.MANGROVE_FENCE_GATE,
                 Blocks.MANGROVE_DOOR,
@@ -242,10 +318,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerCuttingGroupRecipe(exporter, Blocks.CHERRY_LOG, Blocks.CHERRY_PLANKS,
                 ModBlocks.ECO_FRIENDLY_CHERRY_WOOD_VENEERS,
                 ModBlocks.CHERRY_WOOD_FRAMEWORK,
+                ModBlocks.CHERRY_WOOD_WALL,
+                ModBlocks.CHERRY_WOOD_FENCE,
+                ModBlocks.CHERRY_WOOD_FENCE_GATE,
                 Blocks.CHERRY_PLANKS,
                 ModBlocks.ECO_FRIENDLY_CHERRY_PLANK_VENEERS,
                 Blocks.CHERRY_STAIRS,
                 Blocks.CHERRY_SLAB,
+                ModBlocks.CHERRY_PLANK_WALL,
                 Blocks.CHERRY_FENCE,
                 Blocks.CHERRY_FENCE_GATE,
                 Blocks.CHERRY_DOOR,
@@ -254,22 +334,30 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerCuttingGroupRecipe(exporter, Blocks.BAMBOO_BLOCK, Blocks.BAMBOO_PLANKS,
                 ModBlocks.ECO_FRIENDLY_BAMBOO_VENEERS,
                 ModBlocks.BAMBOO_FRAMEWORK,
+                ModBlocks.BAMBOO_STEM_WALL,
+                ModBlocks.BAMBOO_STEM_FENCE,
+                ModBlocks.BAMBOO_STEM_FENCE_GATE,
                 Blocks.BAMBOO_PLANKS,
                 ModBlocks.ECO_FRIENDLY_BAMBOO_PLANK_VENEERS,
                 Blocks.BAMBOO_STAIRS,
                 Blocks.BAMBOO_SLAB,
+                ModBlocks.BAMBOO_PLANK_WALL,
                 Blocks.BAMBOO_FENCE,
                 Blocks.BAMBOO_FENCE_GATE,
                 Blocks.BAMBOO_DOOR,
                 Blocks.BAMBOO_TRAPDOOR);
-        
+
         offerCuttingGroupRecipe(exporter, Blocks.CRIMSON_STEM, Blocks.CRIMSON_PLANKS,
                 ModBlocks.ECO_FRIENDLY_CRIMSON_HYPHAE_VENEERS,
                 ModBlocks.CRIMSON_HYPHAE_FRAMEWORK,
+                ModBlocks.CRIMSON_HYPHAE_WALL,
+                ModBlocks.CRIMSON_HYPHAE_FENCE,
+                ModBlocks.CRIMSON_HYPHAE_FENCE_GATE,
                 Blocks.CRIMSON_PLANKS,
                 ModBlocks.ECO_FRIENDLY_CRIMSON_PLANK_VENEERS,
                 Blocks.CRIMSON_STAIRS,
                 Blocks.CRIMSON_SLAB,
+                ModBlocks.CRIMSON_PLANK_WALL,
                 Blocks.CRIMSON_FENCE,
                 Blocks.CRIMSON_FENCE_GATE,
                 Blocks.CRIMSON_DOOR,
@@ -278,18 +366,20 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerCuttingGroupRecipe(exporter, Blocks.WARPED_STEM, Blocks.WARPED_PLANKS,
                 ModBlocks.ECO_FRIENDLY_WARPED_HYPHAE_VENEERS,
                 ModBlocks.WARPED_HYPHAE_FRAMEWORK,
+                ModBlocks.WARPED_HYPHAE_WALL,
+                ModBlocks.WARPED_HYPHAE_FENCE,
+                ModBlocks.WARPED_HYPHAE_FENCE_GATE,
                 Blocks.WARPED_PLANKS,
                 ModBlocks.ECO_FRIENDLY_WARPED_PLANK_VENEERS,
                 Blocks.WARPED_STAIRS,
                 Blocks.WARPED_SLAB,
+                ModBlocks.WARPED_PLANK_WALL,
                 Blocks.WARPED_FENCE,
                 Blocks.WARPED_FENCE_GATE,
                 Blocks.WARPED_DOOR,
                 Blocks.WARPED_TRAPDOOR);
 
         
-
-
 
         offerChandelierRecipe(Items.CANDLE, ModBlocks.CHANDELIER, exporter);
         offerChandelierRecipe(Items.WHITE_CANDLE, ModBlocks.WHITE_CHANDELIER, exporter);
@@ -309,10 +399,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerChandelierRecipe(Items.MAGENTA_CANDLE, ModBlocks.MAGENTA_CHANDELIER, exporter);
         offerChandelierRecipe(Items.PINK_CANDLE, ModBlocks.PINK_CHANDELIER, exporter);
 
-
-
-
-
+        
 
         offerChainRecipe(Items.CHAIN, Items.IRON_NUGGET, ModBlocks.GRAND_CHAIN, 1, "has_chain", exporter);
         offerChainRecipe(ModBlocks.GRAND_CHAIN, Items.IRON_INGOT, ModBlocks.COLOSSAL_CHAIN, 1, "has_grand_chain", exporter);
@@ -326,6 +413,25 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
 
 
+    private void offerFenceRecipe(ItemConvertible inputWood, ItemConvertible output, String criterion, RecipeExporter exporter) {
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, output, 3)
+                .input(Character.valueOf('#'), Items.STICK)
+                .input(Character.valueOf('@'), inputWood)
+                .pattern("   ")
+                .pattern("@#@")
+                .pattern("@#@")
+                .criterion(criterion, (AdvancementCriterion) VanillaRecipeProvider.conditionsFromItem(inputWood)).offerTo(exporter);
+    }
+
+    private void offerFenceGateRecipe(ItemConvertible inputWood, ItemConvertible output, String criterion, RecipeExporter exporter) {
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, output, 3)
+                .input(Character.valueOf('#'), Items.STICK)
+                .input(Character.valueOf('@'), inputWood)
+                .pattern("   ")
+                .pattern("#@#")
+                .pattern("#@#")
+                .criterion(criterion, (AdvancementCriterion) VanillaRecipeProvider.conditionsFromItem(inputWood)).offerTo(exporter);
+    }
 
     private void offerChandelierRecipe(ItemConvertible inputCandle, ItemConvertible output, RecipeExporter exporter) {
         ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, output, 1)
@@ -340,14 +446,32 @@ public class ModRecipeProvider extends FabricRecipeProvider {
     }
 
 
-    private void offerCuttingGroupRecipe(RecipeExporter exporter, ItemConvertible inputLog, ItemConvertible inputPlanks, ItemConvertible outputLogVeneers, ItemConvertible outputFramework, ItemConvertible outputPlanks, ItemConvertible outputPlankVeneers, ItemConvertible outputStairs, ItemConvertible outputSlabs, ItemConvertible outputFence, ItemConvertible outputFenceGate, ItemConvertible outputDoor, ItemConvertible outputTrapdoor) {
+    private void offerCuttingGroupRecipe(RecipeExporter exporter, ItemConvertible inputLog, ItemConvertible inputPlanks,
+                                         ItemConvertible outputLogVeneers,
+                                         ItemConvertible outputFramework, 
+                                         ItemConvertible outputLogWalls,
+                                         ItemConvertible outputLogFence,
+                                         ItemConvertible outputLogFenceGate,
+                                         ItemConvertible outputPlanks, 
+                                         ItemConvertible outputPlankVeneers, 
+                                         ItemConvertible outputStairs, 
+                                         ItemConvertible outputSlabs, 
+                                         ItemConvertible outputPlankWalls,
+                                         ItemConvertible outputFence, 
+                                         ItemConvertible outputFenceGate, 
+                                         ItemConvertible outputDoor, 
+                                         ItemConvertible outputTrapdoor) {
         // Input: LOG
         offerCuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, outputLogVeneers, inputLog, 4); // Log Veneers
         offerCuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, outputFramework, inputLog, 4); // Framework
+        offerCuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, outputLogWalls, inputLog, 1); // Log Walls
+        offerCuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, outputLogFence, inputLog, 1); // Log Fence
+        offerCuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, outputLogFenceGate, inputLog, 1); // Log Fence Gate
         offerCuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, outputPlanks, inputLog, 4); // Planks
         offerCuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, outputPlankVeneers, inputLog, 16); // Plank Veneers
         offerCuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, outputStairs, inputLog, 4); // Stairs
         offerCuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, outputSlabs, inputLog, 8); // Slabs
+        offerCuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, outputPlankWalls, inputLog, 4); // Walls
         offerCuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, outputFence, inputLog, 4); // Fence
         offerCuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, outputFenceGate, inputLog, 4); // Fence Gates
         offerCuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, outputDoor, inputLog, 2); // Door
@@ -356,6 +480,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerCuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, outputPlankVeneers, inputPlanks, 4); // Plank Veneers
         offerCuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, outputStairs, inputPlanks, 1); // Stairs
         offerCuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, outputSlabs, inputPlanks, 2); // Slabs
+        offerCuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, outputPlankWalls, inputPlanks, 1); // Walls
         offerCuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, outputFence, inputPlanks, 1); // Fence
         offerCuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, outputFenceGate, inputPlanks, 1); // Fence Gates
     }

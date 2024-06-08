@@ -1,31 +1,19 @@
 package net.echo.little_johns.datagen;
 
 import net.echo.little_johns.block.ModBlocks;
-import net.echo.little_johns.block.custom.LayerBlock;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
 import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
-import net.minecraft.block.SnowBlock;
 import net.minecraft.data.server.loottable.BlockLootTableGenerator;
 import net.minecraft.enchantment.Enchantments;
 import net.minecraft.item.Item;
-import net.minecraft.item.Items;
-import net.minecraft.loot.LootPool;
 import net.minecraft.loot.LootTable;
-import net.minecraft.loot.condition.BlockStatePropertyLootCondition;
-import net.minecraft.loot.condition.EntityPropertiesLootCondition;
-import net.minecraft.loot.condition.LootCondition;
-import net.minecraft.loot.context.LootContext;
-import net.minecraft.loot.entry.AlternativeEntry;
 import net.minecraft.loot.entry.ItemEntry;
 import net.minecraft.loot.entry.LeafEntry;
 import net.minecraft.loot.entry.LootPoolEntry;
 import net.minecraft.loot.function.ApplyBonusLootFunction;
 import net.minecraft.loot.function.SetCountLootFunction;
-import net.minecraft.loot.provider.number.ConstantLootNumberProvider;
 import net.minecraft.loot.provider.number.UniformLootNumberProvider;
-import net.minecraft.predicate.StatePredicate;
 import net.minecraft.registry.RegistryWrapper;
 
 import java.util.concurrent.CompletableFuture;
@@ -132,6 +120,57 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.ECO_FRIENDLY_WARPED_WART_VENEERS, (Block block) -> this.multifaceGrowthDrops((Block)block, WITHOUT_SILK_TOUCH));
         addDrop(ModBlocks.ECO_FRIENDLY_MOSS_VENEERS, (Block block) -> this.multifaceGrowthDrops((Block)block, WITHOUT_SILK_TOUCH));
         addDrop(ModBlocks.ECO_FRIENDLY_GRASS_VENEERS, (Block block) -> this.multifaceGrowthDrops((Block)block, WITH_SILK_TOUCH));
+
+
+
+        addDrop(ModBlocks.OAK_WOOD_WALL);
+        addDrop(ModBlocks.SPRUCE_WOOD_WALL);
+        addDrop(ModBlocks.BIRCH_WOOD_WALL);
+        addDrop(ModBlocks.JUNGLE_WOOD_WALL);
+        addDrop(ModBlocks.ACACIA_WOOD_WALL);
+        addDrop(ModBlocks.DARK_OAK_WOOD_WALL);
+        addDrop(ModBlocks.MANGROVE_WOOD_WALL);
+        addDrop(ModBlocks.CHERRY_WOOD_WALL);
+        addDrop(ModBlocks.BAMBOO_STEM_WALL);
+        addDrop(ModBlocks.CRIMSON_HYPHAE_WALL);
+        addDrop(ModBlocks.WARPED_HYPHAE_WALL);
+
+        addDrop(ModBlocks.OAK_PLANK_WALL);
+        addDrop(ModBlocks.SPRUCE_PLANK_WALL);
+        addDrop(ModBlocks.BIRCH_PLANK_WALL);
+        addDrop(ModBlocks.JUNGLE_PLANK_WALL);
+        addDrop(ModBlocks.ACACIA_PLANK_WALL);
+        addDrop(ModBlocks.DARK_OAK_PLANK_WALL);
+        addDrop(ModBlocks.MANGROVE_PLANK_WALL);
+        addDrop(ModBlocks.CHERRY_PLANK_WALL);
+        addDrop(ModBlocks.BAMBOO_PLANK_WALL);
+        addDrop(ModBlocks.CRIMSON_PLANK_WALL);
+        addDrop(ModBlocks.WARPED_PLANK_WALL);
+
+
+        addDrop(ModBlocks.OAK_WOOD_FENCE);
+        addDrop(ModBlocks.SPRUCE_WOOD_FENCE);
+        addDrop(ModBlocks.BIRCH_WOOD_FENCE);
+        addDrop(ModBlocks.JUNGLE_WOOD_FENCE);
+        addDrop(ModBlocks.ACACIA_WOOD_FENCE);
+        addDrop(ModBlocks.DARK_OAK_WOOD_FENCE);
+        addDrop(ModBlocks.MANGROVE_WOOD_FENCE);
+        addDrop(ModBlocks.CHERRY_WOOD_FENCE);
+        addDrop(ModBlocks.BAMBOO_STEM_FENCE);
+        addDrop(ModBlocks.CRIMSON_HYPHAE_FENCE);
+        addDrop(ModBlocks.WARPED_HYPHAE_FENCE); 
+        
+        addDrop(ModBlocks.OAK_WOOD_FENCE_GATE);
+        addDrop(ModBlocks.SPRUCE_WOOD_FENCE_GATE);
+        addDrop(ModBlocks.BIRCH_WOOD_FENCE_GATE);
+        addDrop(ModBlocks.JUNGLE_WOOD_FENCE_GATE);
+        addDrop(ModBlocks.ACACIA_WOOD_FENCE_GATE);
+        addDrop(ModBlocks.DARK_OAK_WOOD_FENCE_GATE);
+        addDrop(ModBlocks.MANGROVE_WOOD_FENCE_GATE);
+        addDrop(ModBlocks.CHERRY_WOOD_FENCE_GATE);
+        addDrop(ModBlocks.BAMBOO_STEM_FENCE_GATE);
+        addDrop(ModBlocks.CRIMSON_HYPHAE_FENCE_GATE);
+        addDrop(ModBlocks.WARPED_HYPHAE_FENCE_GATE);
 
 
 
