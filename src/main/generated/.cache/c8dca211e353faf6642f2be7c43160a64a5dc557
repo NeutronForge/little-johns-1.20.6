@@ -1,12 +1,14 @@
-// 1.20.6	2024-06-09T12:43:16.2218345	Little John's/Tags for minecraft:block
+// 1.20.6	2024-06-09T19:05:12.2450219	Little John's/Tags for minecraft:block
 f9ac0cd20368898c2e970844f850ade903d09ff9 data\minecraft\tags\blocks\walls.json
+44a3eb0288c673e49c60622c05c634f071dc3a87 data\minecraft\tags\blocks\mineable\shovel.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data\minecraft\tags\blocks\needs_diamond_tool.json
+97702ffc980502ea19b2620c53be0612efea0bb6 data\minecraft\tags\blocks\mineable\hoe.json
+4a7fcaa27520ecbf0c41f96d2d6c98b23db9b054 data\minecraft\tags\blocks\mineable\axe.json
+f47ee913df34a01b37d2c46f32d7f3aecff362a2 data\minecraft\tags\blocks\slabs.json
 c5d6de4ee2734f2dcd6e57c55ae85bd673650bd2 data\minecraft\tags\blocks\fence_gates.json
 cc7183423659da41ae5b68ddce65e989372954c0 data\minecraft\tags\blocks\needs_stone_tool.json
-44a3eb0288c673e49c60622c05c634f071dc3a87 data\minecraft\tags\blocks\mineable\shovel.json
 36466e961e6364a4a260c6ff80368da95e25eacb data\minecraft\tags\blocks\wooden_fences.json
-35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data\minecraft\tags\blocks\needs_diamond_tool.json
+6fc8540e45f573491e8b8c6f41c6036308f72e82 data\minecraft\tags\blocks\stairs.json
 06433cfb897783422df4d2b04f3101ea42f5934b data\minecraft\tags\blocks\candles.json
 e8186aad126adc1fc5944f14a9ad06b988444d8e data\minecraft\tags\blocks\needs_iron_tool.json
-d802fc3a877068b24e997bfef1ed752f1c3d4b4d data\minecraft\tags\blocks\mineable\pickaxe.json
-97702ffc980502ea19b2620c53be0612efea0bb6 data\minecraft\tags\blocks\mineable\hoe.json
-15874ad001f038ee595ba14cb1c429bb0ef77595 data\minecraft\tags\blocks\mineable\axe.json
+a1afb16dbeecd9a448fe7832978fbd23e8efadb2 data\minecraft\tags\blocks\mineable\pickaxe.json

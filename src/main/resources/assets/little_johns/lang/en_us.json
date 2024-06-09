@@ -32,6 +32,8 @@
   "block.little_johns.pink_chandelier": "Pink Chandelier",
 
   "block.little_johns.galvanized_square_steel_block": "Galvanized Square Steel Block",
+  "block.little_johns.galvanized_square_steel_stairs": "Galvanized Square Steel Stairs",
+  "block.little_johns.galvanized_square_steel_slab": "Galvanized Square Steel Slab",
   "block.little_johns.galvanized_square_steel_beam": "Galvanized Square Steel Beam",
   "block.little_johns.galvanized_square_steel": "Galvanized Square Steel",
   "block.little_johns.galvanized_square_steel_grate": "Galvanized Square Steel Grate",
@@ -146,11 +148,33 @@
   "block.little_johns.crimson_hyphae_fence_gate": "Crimson Hyphae Fence Gate",
   "block.little_johns.warped_hyphae_fence_gate": "Warped Hyphae Fence Gate",
 
+  "block.little_johns.oak_wood_stairs": "Oak Wood Stairs",
+  "block.little_johns.spruce_wood_stairs": "Spruce Wood Stairs",
+  "block.little_johns.birch_wood_stairs": "Birch Wood Stairs",
+  "block.little_johns.jungle_wood_stairs": "Jungle Wood Stairs",
+  "block.little_johns.acacia_wood_stairs": "Acacia Wood Stairs",
+  "block.little_johns.dark_oak_wood_stairs": "Dark Oak Wood Stairs",
+  "block.little_johns.mangrove_wood_stairs": "Mangrove Wood Stairs",
+  "block.little_johns.cherry_wood_stairs": "Cherry Wood Stairs",
+  "block.little_johns.bamboo_stem_stairs": "Bamboo Stem Stairs",
+  "block.little_johns.crimson_hyphae_stairs": "Crimson Hyphae Stairs",
+  "block.little_johns.warped_hyphae_stairs": "Warped Hyphae Stairs",
   
+  "block.little_johns.oak_wood_slab": "Oak Wood Slab",
+  "block.little_johns.spruce_wood_slab": "Spruce Wood Slab",
+  "block.little_johns.birch_wood_slab": "Birch Wood Slab",
+  "block.little_johns.jungle_wood_slab": "Jungle Wood Slab",
+  "block.little_johns.acacia_wood_slab": "Acacia Wood Slab",
+  "block.little_johns.dark_oak_wood_slab": "Dark Oak Wood Slab",
+  "block.little_johns.mangrove_wood_slab": "Mangrove Wood Slab",
+  "block.little_johns.cherry_wood_slab": "Cherry Wood Slab",
+  "block.little_johns.bamboo_stem_slab": "Bamboo Stem Slab",
+  "block.little_johns.crimson_hyphae_slab": "Crimson Hyphae Slab",
+  "block.little_johns.warped_hyphae_slab": "Warped Hyphae Slab",
 
 
   "item.little_johns.morsmordre_crazy_donkey_music_disc": "Music Disc",
-  "item.little_johns.morsmordre_crazy_donkey_music_disc.desc": "Crazy Donkey - Galvanized Square Steel Theme (Morsmordre) [CC0]",
+  "item.little_johns.morsmordre_crazy_donkey_music_disc.desc": "Crazy Donkey - Galvanized Square Steel Theme (Morsmordre)",
   "record.nowPlaying": "Now Playing: %s",
 
   "item.little_johns.borrowed_screws": "Screws Borrowed From Aunt"

@@ -147,6 +147,8 @@ public class ModItems {
 
 
         entries.add(ModBlocks.GALVANIZED_SQUARE_STEEL_BLOCK);
+        entries.add(ModBlocks.GALVANIZED_SQUARE_STEEL_STAIRS);
+        entries.add(ModBlocks.GALVANIZED_SQUARE_STEEL_SLAB);
         entries.add(ModBlocks.GALVANIZED_SQUARE_STEEL_BEAM);
         entries.add(ModBlocks.GALVANIZED_SQUARE_STEEL);
         entries.add(ModBlocks.GALVANIZED_SQUARE_STEEL_GRATE);
@@ -159,90 +161,112 @@ public class ModItems {
 
 
         entries.add(ModBlocks.ECO_FRIENDLY_OAK_WOOD_VENEERS);
+        entries.add(ModBlocks.OAK_WOOD_FRAMEWORK);
+        entries.add(ModBlocks.OAK_WOOD_STAIRS);
+        entries.add(ModBlocks.OAK_WOOD_SLAB);
         entries.add(ModBlocks.OAK_WOOD_WALL);
         entries.add(ModBlocks.OAK_WOOD_FENCE);
         entries.add(ModBlocks.OAK_WOOD_FENCE_GATE);
-        entries.add(ModBlocks.OAK_WOOD_FRAMEWORK);
         entries.add(ModBlocks.ECO_FRIENDLY_OAK_PLANK_VENEERS);
         entries.add(ModBlocks.OAK_PLANK_WALL);
 
         entries.add(ModBlocks.ECO_FRIENDLY_SPRUCE_WOOD_VENEERS);
+        entries.add(ModBlocks.SPRUCE_WOOD_FRAMEWORK);
+        entries.add(ModBlocks.SPRUCE_WOOD_STAIRS);
+        entries.add(ModBlocks.SPRUCE_WOOD_SLAB);
         entries.add(ModBlocks.SPRUCE_WOOD_WALL);
         entries.add(ModBlocks.SPRUCE_WOOD_FENCE);
         entries.add(ModBlocks.SPRUCE_WOOD_FENCE_GATE);
-        entries.add(ModBlocks.SPRUCE_WOOD_FRAMEWORK);
         entries.add(ModBlocks.ECO_FRIENDLY_SPRUCE_PLANK_VENEERS);
         entries.add(ModBlocks.SPRUCE_PLANK_WALL);
 
         entries.add(ModBlocks.ECO_FRIENDLY_BIRCH_WOOD_VENEERS);
+        entries.add(ModBlocks.BIRCH_WOOD_FRAMEWORK);
+        entries.add(ModBlocks.BIRCH_WOOD_STAIRS);
+        entries.add(ModBlocks.BIRCH_WOOD_SLAB);
         entries.add(ModBlocks.BIRCH_WOOD_WALL);
         entries.add(ModBlocks.BIRCH_WOOD_FENCE);
         entries.add(ModBlocks.BIRCH_WOOD_FENCE_GATE);
-        entries.add(ModBlocks.BIRCH_WOOD_FRAMEWORK);
         entries.add(ModBlocks.ECO_FRIENDLY_BIRCH_PLANK_VENEERS);
         entries.add(ModBlocks.BIRCH_PLANK_WALL);
 
         entries.add(ModBlocks.ECO_FRIENDLY_JUNGLE_WOOD_VENEERS);
+        entries.add(ModBlocks.JUNGLE_WOOD_FRAMEWORK);
+        entries.add(ModBlocks.JUNGLE_WOOD_STAIRS);
+        entries.add(ModBlocks.JUNGLE_WOOD_SLAB);
         entries.add(ModBlocks.JUNGLE_WOOD_WALL);
         entries.add(ModBlocks.JUNGLE_WOOD_FENCE);
         entries.add(ModBlocks.JUNGLE_WOOD_FENCE_GATE);
-        entries.add(ModBlocks.JUNGLE_WOOD_FRAMEWORK);
         entries.add(ModBlocks.ECO_FRIENDLY_JUNGLE_PLANK_VENEERS);
         entries.add(ModBlocks.JUNGLE_PLANK_WALL);
 
         entries.add(ModBlocks.ECO_FRIENDLY_ACACIA_WOOD_VENEERS);
+        entries.add(ModBlocks.ACACIA_WOOD_FRAMEWORK);
+        entries.add(ModBlocks.ACACIA_WOOD_STAIRS);
+        entries.add(ModBlocks.ACACIA_WOOD_SLAB);
         entries.add(ModBlocks.ACACIA_WOOD_WALL);
         entries.add(ModBlocks.ACACIA_WOOD_FENCE);
         entries.add(ModBlocks.ACACIA_WOOD_FENCE_GATE);
-        entries.add(ModBlocks.ACACIA_WOOD_FRAMEWORK);
         entries.add(ModBlocks.ECO_FRIENDLY_ACACIA_PLANK_VENEERS);
         entries.add(ModBlocks.ACACIA_PLANK_WALL);
 
         entries.add(ModBlocks.ECO_FRIENDLY_DARK_OAK_WOOD_VENEERS);
+        entries.add(ModBlocks.DARK_OAK_WOOD_FRAMEWORK);
+        entries.add(ModBlocks.DARK_OAK_WOOD_STAIRS);
+        entries.add(ModBlocks.DARK_OAK_WOOD_SLAB);
         entries.add(ModBlocks.DARK_OAK_WOOD_WALL);
         entries.add(ModBlocks.DARK_OAK_WOOD_FENCE);
         entries.add(ModBlocks.DARK_OAK_WOOD_FENCE_GATE);
-        entries.add(ModBlocks.DARK_OAK_WOOD_FRAMEWORK);
         entries.add(ModBlocks.ECO_FRIENDLY_DARK_OAK_PLANK_VENEERS);
         entries.add(ModBlocks.DARK_OAK_PLANK_WALL);
 
         entries.add(ModBlocks.ECO_FRIENDLY_MANGROVE_WOOD_VENEERS);
+        entries.add(ModBlocks.MANGROVE_WOOD_FRAMEWORK);
+        entries.add(ModBlocks.MANGROVE_WOOD_STAIRS);
+        entries.add(ModBlocks.MANGROVE_WOOD_SLAB);
         entries.add(ModBlocks.MANGROVE_WOOD_WALL);
         entries.add(ModBlocks.MANGROVE_WOOD_FENCE);
         entries.add(ModBlocks.MANGROVE_WOOD_FENCE_GATE);
-        entries.add(ModBlocks.MANGROVE_WOOD_FRAMEWORK);
         entries.add(ModBlocks.ECO_FRIENDLY_MANGROVE_PLANK_VENEERS);
         entries.add(ModBlocks.MANGROVE_PLANK_WALL);
 
         entries.add(ModBlocks.ECO_FRIENDLY_CHERRY_WOOD_VENEERS);
+        entries.add(ModBlocks.CHERRY_WOOD_FRAMEWORK);
+        entries.add(ModBlocks.CHERRY_WOOD_STAIRS);
+        entries.add(ModBlocks.CHERRY_WOOD_SLAB);
         entries.add(ModBlocks.CHERRY_WOOD_WALL);
         entries.add(ModBlocks.CHERRY_WOOD_FENCE);
         entries.add(ModBlocks.CHERRY_WOOD_FENCE_GATE);
-        entries.add(ModBlocks.CHERRY_WOOD_FRAMEWORK);
         entries.add(ModBlocks.ECO_FRIENDLY_CHERRY_PLANK_VENEERS);
         entries.add(ModBlocks.CHERRY_PLANK_WALL);
 
         entries.add(ModBlocks.ECO_FRIENDLY_BAMBOO_VENEERS);
+        entries.add(ModBlocks.BAMBOO_FRAMEWORK);
+        entries.add(ModBlocks.BAMBOO_STEM_STAIRS);
+        entries.add(ModBlocks.BAMBOO_STEM_SLAB);
         entries.add(ModBlocks.BAMBOO_STEM_WALL);
         entries.add(ModBlocks.BAMBOO_STEM_FENCE);
         entries.add(ModBlocks.BAMBOO_STEM_FENCE_GATE);
-        entries.add(ModBlocks.BAMBOO_FRAMEWORK);
         entries.add(ModBlocks.ECO_FRIENDLY_BAMBOO_PLANK_VENEERS);
         entries.add(ModBlocks.BAMBOO_PLANK_WALL);
 
         entries.add(ModBlocks.ECO_FRIENDLY_CRIMSON_HYPHAE_VENEERS);
+        entries.add(ModBlocks.CRIMSON_HYPHAE_FRAMEWORK);
+        entries.add(ModBlocks.CRIMSON_HYPHAE_STAIRS);
+        entries.add(ModBlocks.CRIMSON_HYPHAE_SLAB);
         entries.add(ModBlocks.CRIMSON_HYPHAE_WALL);
         entries.add(ModBlocks.CRIMSON_HYPHAE_FENCE);
         entries.add(ModBlocks.CRIMSON_HYPHAE_FENCE_GATE);
-        entries.add(ModBlocks.CRIMSON_HYPHAE_FRAMEWORK);
         entries.add(ModBlocks.ECO_FRIENDLY_CRIMSON_PLANK_VENEERS);
         entries.add(ModBlocks.CRIMSON_PLANK_WALL);
 
         entries.add(ModBlocks.ECO_FRIENDLY_WARPED_HYPHAE_VENEERS);
+        entries.add(ModBlocks.WARPED_HYPHAE_FRAMEWORK);
+        entries.add(ModBlocks.WARPED_HYPHAE_STAIRS);
+        entries.add(ModBlocks.WARPED_HYPHAE_SLAB);
         entries.add(ModBlocks.WARPED_HYPHAE_WALL);
         entries.add(ModBlocks.WARPED_HYPHAE_FENCE);
         entries.add(ModBlocks.WARPED_HYPHAE_FENCE_GATE);
-        entries.add(ModBlocks.WARPED_HYPHAE_FRAMEWORK);
         entries.add(ModBlocks.ECO_FRIENDLY_WARPED_PLANK_VENEERS);
         entries.add(ModBlocks.WARPED_PLANK_WALL);
 

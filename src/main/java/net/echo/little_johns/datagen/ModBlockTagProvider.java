@@ -3,6 +3,7 @@ package net.echo.little_johns.datagen;
 import net.echo.little_johns.block.ModBlocks;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
+import net.minecraft.block.Block;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.BlockTags;
 import java.util.concurrent.CompletableFuture;
@@ -20,6 +21,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         // PICKAXE MINEABLE
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.GALVANIZED_SQUARE_STEEL_BLOCK)
+                .add(ModBlocks.GALVANIZED_SQUARE_STEEL_STAIRS)
+                .add(ModBlocks.GALVANIZED_SQUARE_STEEL_SLAB)
                 .add(ModBlocks.GALVANIZED_SQUARE_STEEL_BEAM)
                 .add(ModBlocks.GALVANIZED_SQUARE_STEEL)
                 .add(ModBlocks.GALVANIZED_SQUARE_STEEL_GRATE)
@@ -147,6 +150,30 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.BAMBOO_STEM_WALL)
                 .add(ModBlocks.CRIMSON_HYPHAE_WALL)
                 .add(ModBlocks.WARPED_HYPHAE_WALL)
+                
+                .add(ModBlocks.OAK_WOOD_STAIRS)
+                .add(ModBlocks.SPRUCE_WOOD_STAIRS)
+                .add(ModBlocks.BIRCH_WOOD_STAIRS)
+                .add(ModBlocks.JUNGLE_WOOD_STAIRS)
+                .add(ModBlocks.ACACIA_WOOD_STAIRS)
+                .add(ModBlocks.DARK_OAK_WOOD_STAIRS)
+                .add(ModBlocks.MANGROVE_WOOD_STAIRS)
+                .add(ModBlocks.CHERRY_WOOD_STAIRS)
+                .add(ModBlocks.BAMBOO_STEM_STAIRS)
+                .add(ModBlocks.CRIMSON_HYPHAE_STAIRS)
+                .add(ModBlocks.WARPED_HYPHAE_STAIRS)
+                
+                .add(ModBlocks.OAK_WOOD_SLAB)
+                .add(ModBlocks.SPRUCE_WOOD_SLAB)
+                .add(ModBlocks.BIRCH_WOOD_SLAB)
+                .add(ModBlocks.JUNGLE_WOOD_SLAB)
+                .add(ModBlocks.ACACIA_WOOD_SLAB)
+                .add(ModBlocks.DARK_OAK_WOOD_SLAB)
+                .add(ModBlocks.MANGROVE_WOOD_SLAB)
+                .add(ModBlocks.CHERRY_WOOD_SLAB)
+                .add(ModBlocks.BAMBOO_STEM_SLAB)
+                .add(ModBlocks.CRIMSON_HYPHAE_SLAB)
+                .add(ModBlocks.WARPED_HYPHAE_SLAB)
         
         
         
@@ -255,7 +282,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.WARPED_HYPHAE_FENCE);
 
 
-      // FENCE GATE BLOCK TAG
+        // FENCE GATE BLOCK TAG
         getOrCreateTagBuilder(BlockTags.FENCE_GATES)
                 .add(ModBlocks.OAK_WOOD_FENCE_GATE)
                 .add(ModBlocks.SPRUCE_WOOD_FENCE_GATE)
@@ -270,6 +297,37 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.WARPED_HYPHAE_FENCE_GATE);
 
 
+        // STAIRS BLOCK TAG
+        getOrCreateTagBuilder(BlockTags.STAIRS)
+                .add(ModBlocks.GALVANIZED_SQUARE_STEEL_STAIRS)
+
+                .add(ModBlocks.OAK_WOOD_STAIRS)
+                .add(ModBlocks.SPRUCE_WOOD_STAIRS)
+                .add(ModBlocks.BIRCH_WOOD_STAIRS)
+                .add(ModBlocks.JUNGLE_WOOD_STAIRS)
+                .add(ModBlocks.ACACIA_WOOD_STAIRS)
+                .add(ModBlocks.DARK_OAK_WOOD_STAIRS)
+                .add(ModBlocks.MANGROVE_WOOD_STAIRS)
+                .add(ModBlocks.CHERRY_WOOD_STAIRS)
+                .add(ModBlocks.BAMBOO_STEM_STAIRS)
+                .add(ModBlocks.CRIMSON_HYPHAE_STAIRS)
+                .add(ModBlocks.WARPED_HYPHAE_STAIRS);
+
+        // SLAB BLOCK TAG
+        getOrCreateTagBuilder(BlockTags.SLABS)
+                .add(ModBlocks.GALVANIZED_SQUARE_STEEL_SLAB)
+
+                .add(ModBlocks.OAK_WOOD_SLAB)
+                .add(ModBlocks.SPRUCE_WOOD_SLAB)
+                .add(ModBlocks.BIRCH_WOOD_SLAB)
+                .add(ModBlocks.JUNGLE_WOOD_SLAB)
+                .add(ModBlocks.ACACIA_WOOD_SLAB)
+                .add(ModBlocks.DARK_OAK_WOOD_SLAB)
+                .add(ModBlocks.MANGROVE_WOOD_SLAB)
+                .add(ModBlocks.CHERRY_WOOD_SLAB)
+                .add(ModBlocks.BAMBOO_STEM_SLAB)
+                .add(ModBlocks.CRIMSON_HYPHAE_SLAB)
+                .add(ModBlocks.WARPED_HYPHAE_SLAB);   
 
 
     }

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "little_johns:block/galvanized_square_steel_block",
+    "side": "little_johns:block/galvanized_square_steel_block",
+    "top": "little_johns:block/galvanized_square_steel_block"
+  }
+}

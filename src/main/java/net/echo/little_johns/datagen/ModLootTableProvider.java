@@ -63,6 +63,9 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.GOLDEN_GRAND_CHAIN);
         addDrop(ModBlocks.GOLDEN_COLOSSAL_CHAIN);
 
+        addDrop(ModBlocks.GALVANIZED_SQUARE_STEEL_BLOCK);
+        addDrop(ModBlocks.GALVANIZED_SQUARE_STEEL_STAIRS);
+        addDrop(ModBlocks.GALVANIZED_SQUARE_STEEL_SLAB, slabDrops(ModBlocks.GALVANIZED_SQUARE_STEEL_SLAB));
         addDrop(ModBlocks.GALVANIZED_SQUARE_STEEL_BEAM);
         addDrop(ModBlocks.GALVANIZED_SQUARE_STEEL, (Block block) -> this.multifaceGrowthDrops((Block)block, WITHOUT_SILK_TOUCH));
         addDrop(ModBlocks.GALVANIZED_SQUARE_STEEL_GRATE, (Block block) -> this.multifaceGrowthDrops((Block)block, WITHOUT_SILK_TOUCH));
@@ -171,8 +174,31 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.BAMBOO_STEM_FENCE_GATE);
         addDrop(ModBlocks.CRIMSON_HYPHAE_FENCE_GATE);
         addDrop(ModBlocks.WARPED_HYPHAE_FENCE_GATE);
+        
+        
+        addDrop(ModBlocks.OAK_WOOD_STAIRS);
+        addDrop(ModBlocks.SPRUCE_WOOD_STAIRS);
+        addDrop(ModBlocks.BIRCH_WOOD_STAIRS);
+        addDrop(ModBlocks.JUNGLE_WOOD_STAIRS);
+        addDrop(ModBlocks.ACACIA_WOOD_STAIRS);
+        addDrop(ModBlocks.DARK_OAK_WOOD_STAIRS);
+        addDrop(ModBlocks.MANGROVE_WOOD_STAIRS);
+        addDrop(ModBlocks.CHERRY_WOOD_STAIRS);
+        addDrop(ModBlocks.BAMBOO_STEM_STAIRS);
+        addDrop(ModBlocks.CRIMSON_HYPHAE_STAIRS);
+        addDrop(ModBlocks.WARPED_HYPHAE_STAIRS);
 
-
+        addDrop(ModBlocks.OAK_WOOD_SLAB, slabDrops(ModBlocks.OAK_WOOD_SLAB));
+        addDrop(ModBlocks.SPRUCE_WOOD_SLAB, slabDrops(ModBlocks.SPRUCE_WOOD_SLAB));
+        addDrop(ModBlocks.BIRCH_WOOD_SLAB, slabDrops(ModBlocks.BIRCH_WOOD_SLAB));
+        addDrop(ModBlocks.JUNGLE_WOOD_SLAB, slabDrops(ModBlocks.JUNGLE_WOOD_SLAB));
+        addDrop(ModBlocks.ACACIA_WOOD_SLAB, slabDrops(ModBlocks.ACACIA_WOOD_SLAB));
+        addDrop(ModBlocks.DARK_OAK_WOOD_SLAB, slabDrops(ModBlocks.DARK_OAK_WOOD_SLAB));
+        addDrop(ModBlocks.MANGROVE_WOOD_SLAB, slabDrops(ModBlocks.MANGROVE_WOOD_SLAB));
+        addDrop(ModBlocks.CHERRY_WOOD_SLAB, slabDrops(ModBlocks.CHERRY_WOOD_SLAB));
+        addDrop(ModBlocks.BAMBOO_STEM_SLAB, slabDrops(ModBlocks.BAMBOO_STEM_SLAB));
+        addDrop(ModBlocks.CRIMSON_HYPHAE_SLAB, slabDrops(ModBlocks.CRIMSON_HYPHAE_SLAB));
+        addDrop(ModBlocks.WARPED_HYPHAE_STAIRS, slabDrops(ModBlocks.WARPED_HYPHAE_SLAB));
 
 
 

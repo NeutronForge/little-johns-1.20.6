@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "little_johns:block/galvanized_square_steel_slab"
+    },
+    "type=double": {
+      "model": "little_johns:block/galvanized_square_steel_block"
+    },
+    "type=top": {
+      "model": "little_johns:block/galvanized_square_steel_slab_top"
+    }
+  }
+}

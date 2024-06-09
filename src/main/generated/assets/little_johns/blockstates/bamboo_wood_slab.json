@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "little_johns:block/bamboo_wood_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/bamboo_block"
+    },
+    "type=top": {
+      "model": "little_johns:block/bamboo_wood_slab_top"
+    }
+  }
+}

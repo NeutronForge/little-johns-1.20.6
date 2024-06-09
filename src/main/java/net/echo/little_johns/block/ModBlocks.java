@@ -45,12 +45,17 @@ public class ModBlocks {
     // GALVANIZED SQUARE STEEL
     public static final Block GALVANIZED_SQUARE_STEEL_BLOCK = registerBlock("galvanized_square_steel_block",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.NETHERITE)));
+    public static final Block GALVANIZED_SQUARE_STEEL_STAIRS = registerBlock("galvanized_square_steel_stairs",
+            new StairsBlock(ModBlocks.GALVANIZED_SQUARE_STEEL_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.NETHERITE)));
+    public static final Block GALVANIZED_SQUARE_STEEL_SLAB = registerBlock("galvanized_square_steel_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.NETHERITE)));
     public static final Block GALVANIZED_SQUARE_STEEL_BEAM = registerBlock("galvanized_square_steel_beam",
             new BeamBlock(FabricBlockSettings.copyOf(Blocks.CHAIN).nonOpaque().sounds(BlockSoundGroup.NETHERITE)));
     public static final Block GALVANIZED_SQUARE_STEEL = registerBlock("galvanized_square_steel",
             new GalvanizedSquareSteelBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
     public static final Block GALVANIZED_SQUARE_STEEL_GRATE = registerBlock("galvanized_square_steel_grate",
             new GalvanizedSquareSteelBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
+
 
 
     // WOOD FRAMEWORK
@@ -211,9 +216,9 @@ public class ModBlocks {
             new FenceGateBlock(WoodType.CRIMSON, FabricBlockSettings.copyOf(Blocks.CRIMSON_HYPHAE)));
     public static final Block WARPED_HYPHAE_FENCE_GATE = registerBlock("warped_hyphae_fence_gate",
             new FenceGateBlock(WoodType.WARPED, FabricBlockSettings.copyOf(Blocks.WARPED_HYPHAE)));
-    
-    
-    
+
+
+
     // WALLS
     public static final Block OAK_WOOD_WALL = registerBlock("oak_wood_wall",
             new WallBlock(FabricBlockSettings.copyOf(Blocks.OAK_WOOD)));
@@ -263,6 +268,58 @@ public class ModBlocks {
             new WallBlock(FabricBlockSettings.copyOf(Blocks.WARPED_PLANKS)));
 
 
+    // SLABS
+    public static final Block OAK_WOOD_SLAB = registerBlock("oak_wood_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.OAK_WOOD)));
+    public static final Block SPRUCE_WOOD_SLAB = registerBlock("spruce_wood_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.SPRUCE_WOOD)));
+    public static final Block BIRCH_WOOD_SLAB = registerBlock("birch_wood_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.BIRCH_WOOD)));
+    public static final Block JUNGLE_WOOD_SLAB = registerBlock("jungle_wood_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.JUNGLE_WOOD)));
+    public static final Block ACACIA_WOOD_SLAB = registerBlock("acacia_wood_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.ACACIA_WOOD)));
+    public static final Block DARK_OAK_WOOD_SLAB = registerBlock("dark_oak_wood_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.DARK_OAK_WOOD)));
+    public static final Block MANGROVE_WOOD_SLAB = registerBlock("mangrove_wood_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.MANGROVE_WOOD)));
+    public static final Block CHERRY_WOOD_SLAB = registerBlock("cherry_wood_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.CHERRY_WOOD)));
+    public static final Block BAMBOO_STEM_SLAB = registerBlock("bamboo_wood_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.BAMBOO_PLANKS)));
+    public static final Block CRIMSON_HYPHAE_SLAB = registerBlock("crimson_hyphae_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.CRIMSON_HYPHAE)));
+    public static final Block WARPED_HYPHAE_SLAB = registerBlock("warped_hyphae_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.WARPED_HYPHAE)));
+
+    // STAIRS
+    public static final Block OAK_WOOD_STAIRS = registerBlock("oak_wood_stairs",
+            new StairsBlock(Blocks.OAK_WOOD.getDefaultState(), FabricBlockSettings.copyOf(Blocks.OAK_WOOD)));
+    public static final Block SPRUCE_WOOD_STAIRS = registerBlock("spruce_wood_stairs",
+            new StairsBlock(Blocks.SPRUCE_WOOD.getDefaultState(), FabricBlockSettings.copyOf(Blocks.SPRUCE_WOOD)));
+    public static final Block BIRCH_WOOD_STAIRS = registerBlock("birch_wood_stairs",
+            new StairsBlock(Blocks.BIRCH_WOOD.getDefaultState(), FabricBlockSettings.copyOf(Blocks.BIRCH_WOOD)));
+    public static final Block JUNGLE_WOOD_STAIRS = registerBlock("jungle_wood_stairs",
+            new StairsBlock(Blocks.JUNGLE_WOOD.getDefaultState(), FabricBlockSettings.copyOf(Blocks.JUNGLE_WOOD)));
+    public static final Block ACACIA_WOOD_STAIRS = registerBlock("acacia_wood_stairs",
+            new StairsBlock(Blocks.ACACIA_WOOD.getDefaultState(), FabricBlockSettings.copyOf(Blocks.ACACIA_WOOD)));
+    public static final Block DARK_OAK_WOOD_STAIRS = registerBlock("dark_oak_wood_stairs",
+            new StairsBlock(Blocks.DARK_OAK_WOOD.getDefaultState(), FabricBlockSettings.copyOf(Blocks.DARK_OAK_WOOD)));
+    public static final Block MANGROVE_WOOD_STAIRS = registerBlock("mangrove_wood_stairs",
+            new StairsBlock(Blocks.MANGROVE_WOOD.getDefaultState(), FabricBlockSettings.copyOf(Blocks.MANGROVE_WOOD)));
+    public static final Block CHERRY_WOOD_STAIRS = registerBlock("cherry_wood_stairs",
+            new StairsBlock(Blocks.CHERRY_WOOD.getDefaultState(), FabricBlockSettings.copyOf(Blocks.CHERRY_WOOD)));
+    public static final Block BAMBOO_STEM_STAIRS = registerBlock("bamboo_wood_stairs",
+            new StairsBlock(Blocks.BAMBOO_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.BAMBOO_PLANKS)));
+    public static final Block CRIMSON_HYPHAE_STAIRS = registerBlock("crimson_hyphae_stairs",
+            new StairsBlock(Blocks.CRIMSON_HYPHAE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.CRIMSON_HYPHAE)));
+    public static final Block WARPED_HYPHAE_STAIRS = registerBlock("warped_hyphae_stairs",
+            new StairsBlock(Blocks.WARPED_HYPHAE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.WARPED_HYPHAE)));
+
+
+
+
+
 
     // CHANDELIERS
     public static final Block CHANDELIER = registerBlock("chandelier", ModBlocks.createChandelierBlock(MapColor.PALE_YELLOW));
@@ -284,6 +341,7 @@ public class ModBlocks {
     public static final Block PINK_CHANDELIER = registerBlock("pink_chandelier", ModBlocks.createChandelierBlock(MapColor.PINK));
 
 
+
     // CHAINS
     public static final Block GRAND_CHAIN = registerBlock("grand_chain",
             new GrandChainBlock(FabricBlockSettings.copyOf(Blocks.CHAIN).strength(6.0f, 7.0f).nonOpaque().sounds(ModBlockSoundGroup.GRAND_CHAIN)));
@@ -296,6 +354,7 @@ public class ModBlocks {
             new GrandChainBlock(FabricBlockSettings.copyOf(Blocks.CHAIN).strength(6.0f, 7.0f).nonOpaque().sounds(ModBlockSoundGroup.GRAND_CHAIN)));
     public static final Block GOLDEN_COLOSSAL_CHAIN = registerBlock("golden_colossal_chain",
             new ColossalChainBlock(FabricBlockSettings.copyOf(Blocks.CHAIN).strength(8.0f, 10.0f).nonOpaque().sounds(ModBlockSoundGroup.COLOSSAL_CHAIN)));
+
 
 
 
