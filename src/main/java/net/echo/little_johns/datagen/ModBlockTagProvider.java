@@ -98,7 +98,62 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.ECO_FRIENDLY_CHERRY_WOOD_VENEERS)
                 .add(ModBlocks.ECO_FRIENDLY_BAMBOO_VENEERS)
                 .add(ModBlocks.ECO_FRIENDLY_CRIMSON_HYPHAE_VENEERS)
-                .add(ModBlocks.ECO_FRIENDLY_WARPED_HYPHAE_VENEERS);
+                .add(ModBlocks.ECO_FRIENDLY_WARPED_HYPHAE_VENEERS)
+
+                .add(ModBlocks.OAK_WOOD_FENCE)
+                .add(ModBlocks.SPRUCE_WOOD_FENCE)
+                .add(ModBlocks.BIRCH_WOOD_FENCE)
+                .add(ModBlocks.JUNGLE_WOOD_FENCE)
+                .add(ModBlocks.ACACIA_WOOD_FENCE)
+                .add(ModBlocks.DARK_OAK_WOOD_FENCE)
+                .add(ModBlocks.MANGROVE_WOOD_FENCE)
+                .add(ModBlocks.CHERRY_WOOD_FENCE)
+                .add(ModBlocks.BAMBOO_STEM_FENCE)
+                .add(ModBlocks.CRIMSON_HYPHAE_FENCE)
+                .add(ModBlocks.WARPED_HYPHAE_FENCE)
+                
+                .add(ModBlocks.OAK_WOOD_FENCE_GATE)
+                .add(ModBlocks.SPRUCE_WOOD_FENCE_GATE)
+                .add(ModBlocks.BIRCH_WOOD_FENCE_GATE)
+                .add(ModBlocks.JUNGLE_WOOD_FENCE_GATE)
+                .add(ModBlocks.ACACIA_WOOD_FENCE_GATE)
+                .add(ModBlocks.DARK_OAK_WOOD_FENCE_GATE)
+                .add(ModBlocks.MANGROVE_WOOD_FENCE_GATE)
+                .add(ModBlocks.CHERRY_WOOD_FENCE_GATE)
+                .add(ModBlocks.BAMBOO_STEM_FENCE_GATE)
+                .add(ModBlocks.CRIMSON_HYPHAE_FENCE_GATE)
+                .add(ModBlocks.WARPED_HYPHAE_FENCE_GATE)
+
+                .add(ModBlocks.OAK_PLANK_WALL)
+                .add(ModBlocks.SPRUCE_PLANK_WALL)
+                .add(ModBlocks.BIRCH_PLANK_WALL)
+                .add(ModBlocks.JUNGLE_PLANK_WALL)
+                .add(ModBlocks.ACACIA_PLANK_WALL)
+                .add(ModBlocks.DARK_OAK_PLANK_WALL)
+                .add(ModBlocks.MANGROVE_PLANK_WALL)
+                .add(ModBlocks.CHERRY_PLANK_WALL)
+                .add(ModBlocks.BAMBOO_PLANK_WALL)
+                .add(ModBlocks.CRIMSON_PLANK_WALL)
+                .add(ModBlocks.WARPED_PLANK_WALL)
+                
+                .add(ModBlocks.OAK_WOOD_WALL)
+                .add(ModBlocks.SPRUCE_WOOD_WALL)
+                .add(ModBlocks.BIRCH_WOOD_WALL)
+                .add(ModBlocks.JUNGLE_WOOD_WALL)
+                .add(ModBlocks.ACACIA_WOOD_WALL)
+                .add(ModBlocks.DARK_OAK_WOOD_WALL)
+                .add(ModBlocks.MANGROVE_WOOD_WALL)
+                .add(ModBlocks.CHERRY_WOOD_WALL)
+                .add(ModBlocks.BAMBOO_STEM_WALL)
+                .add(ModBlocks.CRIMSON_HYPHAE_WALL)
+                .add(ModBlocks.WARPED_HYPHAE_WALL)
+        
+        
+        
+        
+
+
+        ;
 
         // HOE MINEABLE
         getOrCreateTagBuilder(BlockTags.HOE_MINEABLE)
@@ -126,7 +181,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
                 .add(ModBlocks.GALVANIZED_SQUARE_STEEL_BEAM)
                 .add(ModBlocks.GALVANIZED_SQUARE_STEEL)
-                .add(ModBlocks.GALVANIZED_SQUARE_STEEL_GRATE);
+                .add(ModBlocks.GALVANIZED_SQUARE_STEEL_GRATE)
+                .add(ModBlocks.COLOSSAL_CHAIN)
+                .add(ModBlocks.GOLDEN_COLOSSAL_CHAIN);
 
         // REQUIRES IRON
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
